@@ -1,0 +1,4 @@
+# Ignored files
+*.ignore
+*.secret
+Secret/*
