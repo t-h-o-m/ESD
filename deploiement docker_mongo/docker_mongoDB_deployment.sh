@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 
 #Installing docker engine
 sudo apt purge docker docker-engine docker.io -y 
