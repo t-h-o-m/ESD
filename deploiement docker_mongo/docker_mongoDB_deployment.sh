@@ -1,4 +1,6 @@
 ﻿#!/bin/bash
+#Command Usage : ./docker_mongoDB_deployment.sh {containername} {HOSTport} {CONTAINERport} {dockerimage}
+###############################################################################################
 
 ##INSTALLATION DOCKER-ENGINE
 #Purge of older versions of softwares
@@ -14,5 +16,8 @@ sudo apt-key fingerprint 0EBFCD88
 sudo apt update && sudo apt install -y docker-ce
 
 ##MONGODB CONTAINER DEPLOYMENT
-#The test container is running mongodb, is called mongodb and is actually doing NAT from p27017 to p27017 on host
-sudo docker run -d --name mongodb -p 27017:27017 mongo
+# Testing commands under that sentence are commented when not used
+# sudo mkdir /home/docker
+# sudo mkdir /home/docker/containers
+sudo mkdir /home/docker/containers/$1
+sudo docker run -d --name $1 -v /home/docker/containers/$1:/data/db -p $2:$3 $4
