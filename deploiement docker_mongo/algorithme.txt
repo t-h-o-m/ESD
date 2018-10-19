@@ -1,0 +1,44 @@
+Script déploiment docker
+
+
+demande des id administrateur
+	$id = demande identifiant administrateur
+	$pass = demande pass administrateur
+	
+connexion au compte administrateur
+	connexion($id,$pass)
+		erreur 1 "fail to connect to administrator"
+	
+pré installation sudo
+	apt list --installed sudo
+		flag 1 "sudo installé"
+		
+installation sudo
+	if (flag1 = false)
+		{apt install sudo -y}
+		
+pré création utilisateur docker
+	awk -F':' '{ print $1}' /etc/passwd | grep docker
+		flag 2 "user docker installé"
+	if (flag2 = true)
+		{demande si utilisation de l'utilisateur docker déjà installé}
+
+création compte docker
+	
+	
+ajout des droits à l'utilisateurs docker
+
+changement en compte docker
+
+(
+pré installation docker
+
+installation docker
+
+tester si docker est bien installé
+
+lancement container mongo DB
+)
+
+
+
