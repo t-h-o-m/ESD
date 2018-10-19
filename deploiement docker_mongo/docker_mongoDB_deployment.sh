@@ -18,6 +18,6 @@ sudo apt update && sudo apt install -y docker-ce
 ##MONGODB CONTAINER DEPLOYMENT
 # Testing commands under that sentence are commented when not used
 # sudo mkdir /home/docker
-# sudo mkdir /home/docker/containers
+sudo mkdir /home/docker/containers
 sudo mkdir /home/docker/containers/$1
 sudo docker run -d --name $1 -v /home/docker/containers/$1:/data/db -p $2:$3 $4
