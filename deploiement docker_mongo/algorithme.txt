@@ -1,17 +1,16 @@
 Script déploiment docker
 
 
-demande des id administrateur
-	$id = demande identifiant administrateur
-	$pass = demande pass administrateur
-	
-connexion au compte administrateur
-	connexion($id,$pass)
-		erreur 1 "fail to connect to administrator"
+pré flag
+	crypt = cripted docker user passwd (use mkpasswd from package whois to generate one)
+
+Vérification compte root
+	if($LOGNAME != "root" )
+		{error 1 "not root"}
 	
 pré installation sudo
 	apt list --installed sudo
-		flag 1 "sudo installé"
+		flag 1 "sudo already installed"
 		
 installation sudo
 	if (flag1 = false)
@@ -19,26 +18,45 @@ installation sudo
 		
 pré création utilisateur docker
 	awk -F':' '{ print $1}' /etc/passwd | grep docker
-		flag 2 "user docker installé"
+		flag 2 "user docker already created"
 	if (flag2 = true)
-		{demande si utilisation de l'utilisateur docker déjà installé}
+		{
+		demande si utilisation de l'utilisateur docker déjà créé
+		if(yes = true)
+			{flag 3 "use already created user docker"}
+		else
+			{error 2 " used docker already created"}
+		}
+	
 
 création compte docker
+	if (flag2 && flag3 = false)
+		{sudo useradd -m  -r -N -p [crypt] -s /bin/bash docker}
+			error 3 "failed to create user docker"
 	
 	
-ajout des droits à l'utilisateurs docker
 
-changement en compte docker
+	
 
 (
 pré installation docker
 
 installation docker
-
+	source docker_install
+)
 tester si docker est bien installé
+	docker version
+	if ($? != 0 )
+		{erreur 4 "error in running docker"}
+	docker run hello-world
+	if ($? != 0)
+		{erreur 5 "failed to lunch a container"}
+
+changement en compte docker
+	usermod -aG  docker docker
+	su docker
+	newgrp docker
 
 lancement container mongo DB
-)
-
-
+	source docker_mongoDB_deployement.sh
 
