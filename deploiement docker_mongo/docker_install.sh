@@ -1,5 +1,5 @@
 #!/bin/bash
-#Command Usage : ./docker_install.sh
+#Command Usage : ./docker_install.sh {USER}
 ###############################################################################################
 
 ##INSTALLATION DOCKER-ENGINE
@@ -16,4 +16,4 @@ apt-key fingerprint 0EBFCD88
 apt update &&  apt install -y docker-ce
 
 ##Container directory creation
-mkdir /home/docker/containers
+mkdir /home/$1/containers
