@@ -1,5 +1,5 @@
 ﻿#!/bin/bash
-#Command Usage : ./docker_mongoDB_deployment.sh {containername} {HOSTport} {CONTAINERport} [dockerimage]
+#Command Usage : ./docker_mongoDB_deployment.sh {containername} {HOSTport} {CONTAINERport} {dockerimage}
 ###############################################################################################
 
 ##INSTALLATION DOCKER-ENGINE
