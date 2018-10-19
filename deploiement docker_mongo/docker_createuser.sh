@@ -1,21 +1,20 @@
 #!/bin/bash
 #Checks if user $1 is created. If not, creates it with hashed password $2.
-#Used flags : 2,3
+#Used flags : 2
 #F2: user already exixts
-#F3: use already created user
 #################
 #Check if user already exists
 	awk -F':' '{ print $1}' /etc/passwd | grep $1
 	if [ $? = 0 ]
 		then
-			flag2 = true
+			flag2=true
 		else
-			flag2 = false
+			flag2=false
 	fi
 #Checks flags and creates if both false
 	if [ $flag2 = true ]
 		then
-			if [ $flag3 = true ]
+			if [ $3 = true ]
 				then
 					exit 0
 				else
