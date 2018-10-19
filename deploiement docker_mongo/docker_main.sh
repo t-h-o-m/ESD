@@ -24,7 +24,8 @@ fi
 ## Run the job that needs to be run as root
 #For instance : command arguments
 bash docker_apt.sh sudo
-bash docker_createuser.sh $user $hash
+flag3=false
+bash docker_createuser.sh $user $hash $flag3
 bash docker_install.sh $user
 bash docker_testinstall.sh
 bash docker_usermod.sh $user docker
