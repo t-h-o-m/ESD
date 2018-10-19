@@ -7,11 +7,13 @@
 	apt list --installed $1 | grep $1
 	if [ $? = 0 ]
 		then
-			flag1 = true
+			flag1=true
+		else
+			flag1=false
 	fi
 #Install package with apt
 	if  [ $flag1 != true ]
-		then	
+		then
 			apt install $1 -y
 	fi
 	exit $?
