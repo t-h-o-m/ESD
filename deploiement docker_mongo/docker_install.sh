@@ -16,4 +16,4 @@ apt-key fingerprint 0EBFCD88
 apt update &&  apt install -y docker-ce
 
 ##Container directory creation
-mkdir /home/$1/containers
+su $1 -c "mkdir /home/$1/containers"
