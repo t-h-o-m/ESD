@@ -7,6 +7,7 @@ import json
 import ovh
 import sys
 import argparse
+import time
 
 # Creation of Script options
 # This will help the user to understand Agilitation's Script
@@ -29,9 +30,6 @@ billtype=args.monthlybilling
 imageid=args.imageid
 regionid=args.regionid
 sshid=args.sshkey
-
-
-print (regionid);
 
 # Instanciate an OVH Client.
 # You can generate new credentials with full access to your account on
@@ -60,4 +58,8 @@ result = client.post('/cloud/project/8b98da39645b4f119ae33b1087d2355f/instance',
 )
 
 # Pretty print
-print (json.dumps(result, indent=4))
+#print (json.dumps(result, indent=4))
+id_instance = result['id']
+time.sleep(5)
+getip = client.get('/cloud/project/8b98da39645b4f119ae33b1087d2355f/instance/'+id_instance)
+print (getip['ipAddresses'][0]['ip'])
