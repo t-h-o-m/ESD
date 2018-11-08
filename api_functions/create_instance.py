@@ -39,9 +39,9 @@ print (regionid);
 
 client = ovh.Client(
     endpoint='ovh-eu',               # Endpoint of API OVH Europe (List of available endpoints)
-    application_key='wmSQT1zGHroIkqNw',    # Application Key
-    application_secret='HCeW38FSPmU3aQTQrfzq9oSAS5I8jHoj', # Application Secret
-    consumer_key='7hPhURO4Nl3Ng7ehjCW7wb8i1pKsfVfZ',       # Consumer Key
+    application_key='sOnTv0t6pIgSSyGs',    # Application Key
+    application_secret='RvNu7yF36Ms5ppBcNyXvKVoGQndwEmtr', # Application Secret
+    consumer_key='t4l7VeXIe4CQ0n1exAIutQy5RD2RLV77',       # Consumer Key
 )
 
 
