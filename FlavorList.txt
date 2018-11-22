@@ -1,0 +1,6734 @@
+[
+    {
+        "id": "0ff9e048-50af-4b2e-bc61-72611d23fca7",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "9b312f04-e6ff-493f-bbd1-134510f49258",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "4d4fd037-9493-4f2b-9afe-b542b5248eac",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3be7c73a-735a-4ee1-b8d4-83feb080109d",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "85d24d30-a0c4-4632-8f0f-1091e225bc0b",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "920421d7-bb6a-416a-8d15-aa8e5e67fffe",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "9ab4ffe5-fd92-42bd-9e4e-6b2e754fd543",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "8cd881c7-ae1d-41cb-a5ac-383da63420b4",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "5c603282-e6c7-4a9b-9551-fb403f1872c8",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "d9b96883-2473-4c8a-94a1-3268f102628f",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "0519af05-f45e-4de3-a957-81c6420ac84e",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "9774dc04-22e0-4a11-99fd-16f076d53084",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-7.consumption",
+            "monthly": "b2-7.monthly"
+        },
+        "name": "b2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "39b5420f-3c89-4162-855f-5eefc0ac3fb1",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "be7fb6db-3d81-41cc-8e8b-eb4913dffd91",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "25b929f0-f74e-436c-8305-ac91fe6a0a57",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "78f180b7-2af9-42b5-a7f5-ff0c56fabf06",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "d474c588-1074-4eb3-8462-3a02122af0c5",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "f57ad8c7-7d7a-4456-b16a-e9dbe5cf56ef",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "61979bc1-f22a-4f6e-9cca-7300841ea820",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "3675ba3f-3351-465e-9dff-06b9434d9ff0",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "8cb06d46-9d2d-40f0-a924-e193e50c2d26",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "5e8eeb70-2d1b-4c01-b44d-95221f415bbb",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "d0a81e57-b36c-4991-8e4f-44565c968df4",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "bae64624-2009-48a7-b221-c44d687d1042",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-15.consumption",
+            "monthly": "b2-15.monthly"
+        },
+        "name": "b2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3893032b-e9c7-462e-9fae-4dad19169bbe",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "83cc4f84-36ed-4b9b-bab0-ea729dc3936c",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "559bbfe7-6c05-4e87-9a4c-9f850e3f138d",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "9ac55c1e-d7fa-4910-960f-58e2914b5d0b",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "518edd93-bdc2-4694-92a8-187b5d6261f8",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "d035acfd-dda4-4c76-b8f6-b8bdd810e428",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "966408e5-58ee-4f4c-bda2-c1b4d592018b",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "071b736c-59e4-4e87-8d96-d00e080114d2",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "5bb689f0-244e-4cba-b814-e9d7374dcb01",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "f16fcafc-81a9-4b7a-8d58-e37a939f1601",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "c59fe315-c42d-4bd3-8586-8b3b91198b65",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "3cbe438a-71a6-44ab-bea2-6899193271c5",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-30.consumption",
+            "monthly": "b2-30.monthly"
+        },
+        "name": "b2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "2d82a10d-7a22-4db8-a03e-3e96fe23bd60",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "bd2479e3-31ee-4755-8e2f-3c3c4f20eef8",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "f4aebbe1-3726-4399-bbd5-43604228f1d2",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "2cfdc126-2853-4612-a115-c67b131983be",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "42ce83c2-9348-421c-b443-cad20b8751d7",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "804219b7-4853-4ac6-baa4-4aab342a729c",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "c8adb43a-1ffd-44a4-97a4-16451ef12ec9",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "aa4931ab-6f37-48b9-bc52-fc06431fc73f",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "88b5030b-7e40-4295-b3fa-474a24093364",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "93b4c037-6aa0-4f82-8922-97caa93a0f27",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "4eab6165-1a5b-46d5-b5ba-498a9168a432",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "3ff03533-ba08-4bce-8ca1-1b8383892596",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-60.consumption",
+            "monthly": "b2-60.monthly"
+        },
+        "name": "b2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "e9e90064-01cb-47f3-a9b1-c46380d5bdb7",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "4585e712-2d50-4db2-9e33-c3028e0051e9",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "ec57a1be-e381-4c88-8d63-a230984e3c31",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "cea56846-1e62-432c-a0f2-41effebeef39",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "5162e0b5-96f3-4866-86da-aa34eb1edeac",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 400,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "a515cad7-51f4-4e4b-b148-3c3a67578f60",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "908db2d5-a8a8-4976-92de-a3f3478da158",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 50,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "4e1f38c8-34f5-4999-8c6e-e035518daf77",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "6d1e7920-cfd3-4de2-aff6-c3de0c137139",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "740be8ca-f27d-4d64-8162-61b6d27fd223",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "8907babb-d407-4e8a-8172-767417d691cf",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "b602260e-782f-470c-8760-77bdfa0644ce",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "b2-120.consumption",
+            "monthly": "b2-120.monthly"
+        },
+        "name": "b2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "1ec89300-04f1-4758-b7b9-43de62b501c5",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "fc8c7a4b-aa5c-4b7c-8a97-287eec05c5ed",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "44bff6b0-b570-43a5-8703-1e971457e5de",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "902fae60-bf44-481d-94ee-6649847ac626",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "efef3ef8-738e-43f1-b350-bd47cbfb78d1",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "01dcfa58-3521-453d-85bd-df164b27926c",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "2ed0b117-1b2a-4f86-bb76-05c20ae70298",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "7b8359b3-7683-44c3-ac46-020613612428",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "c89c75a4-8567-435b-8701-45802b04683a",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "68686461-062a-4b54-aa22-b600921b5c45",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "cd659a1c-8d58-4db4-966b-5193274fadee",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "ecb2d3fb-07ac-40b7-8bdc-a8f3671a2668",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-7.consumption",
+            "monthly": "c2-7.monthly"
+        },
+        "name": "c2-7-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "35281437-ee04-49f0-a54c-b1f986746348",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "7dcae0ff-d070-4e32-9ae9-30a0aa65d5d7",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "7ef5fbb6-1b2f-4135-9b97-b62b6bb82d04",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "d6f0e836-b00b-4a36-b974-d87ccc51ebf9",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "bd35781e-bbea-4c11-a450-9415b751d00e",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "a17ecf78-c871-4407-9c8c-0e7d5824c100",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "ff3a4357-e9fc-4712-a088-28366e7daa73",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "a672c4df-0351-4c67-a644-521fdeeecca1",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "eedd37b7-7f35-4555-85fd-b28bd7fcd393",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "40276e6d-1d7f-4a8c-a78d-f46ddbb8e90b",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "f6234925-4e8b-4b31-bb50-8b738618758c",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "2f263113-4409-471e-8099-1c12f728005b",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-15.consumption",
+            "monthly": "c2-15.monthly"
+        },
+        "name": "c2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "e7015fa5-1e73-4bf5-9ffb-2ffbb38a306d",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": false,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "119f1b5b-7744-43a5-bd40-bc54e18f1609",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "ec322081-176d-43e2-940a-11bfc2efbeca",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "8aac7b09-e0b3-4759-ac94-6e89f5bcca5a",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "f3b069c6-2d22-49df-b440-cb0ecafa2bb5",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "e733559f-97f2-4e93-b200-105605dbd922",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "f1047d56-4285-4100-b599-f6d619fab1e5",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": false,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "07bd9cd7-32d6-4e87-82a5-9c6681a620c8",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "4ad11f1c-f78c-4d3e-87c2-cc04224b87f7",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "c254f746-e057-4968-96fe-3830057f0cd0",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "fb19557d-4592-4255-87e4-6f3e6abca083",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "7f1bfac4-1965-4a97-971c-bf3cb90f3db3",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-30.consumption",
+            "monthly": "c2-30.monthly"
+        },
+        "name": "c2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "834dabbf-18dc-4cc9-ab25-06a9a62c2c5e",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "ba3e91a7-a3ca-4dca-919b-bee367eb7ad6",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "bd203129-f615-478f-ac13-6f8687e00bb3",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "b9c516c4-4892-4c26-b77d-1de2f1c61a88",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0b811288-df30-4bf6-bd5d-b77d9778463b",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "e19b1c0e-0665-4512-be90-edb24180e5ec",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "e111ddc7-e9d8-48d7-b0ea-e3259788d689",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "301e366f-214b-454f-a346-2ca774aaf7bb",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "f5c12113-1618-4d22-82b4-f5e88639a4e9",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0966f0eb-080a-4909-a390-27be29af9186",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "2c3983bd-e0ce-4f93-ba90-d8472e3afe57",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0b790592-f47c-4a52-ba56-3923a3013607",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-60.consumption",
+            "monthly": "c2-60.monthly"
+        },
+        "name": "c2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "a6617ff1-1b1e-4f3d-a35f-88a62340d1f5",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "5bc78385-7ff5-4133-bcbc-cd42115c0d6c",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "71c811a5-fefb-4cab-8cae-a484bf8c8769",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "ceb1343c-442c-404e-9094-cb2961adc47d",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "8af470f1-dc29-4d90-b9bf-43b2f347c2c1",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "392b9f0c-2aa7-4ad6-893c-95f6250f7cbf",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "a44bdfbc-1b81-46b9-8478-8ee742826e5f",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "79abcbf7-9b43-48ee-b34a-0abe31e21059",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "b3d151ed-5807-4594-accb-5dae2025d162",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "ecbc5dbf-a81e-4498-805a-7b753e0097b7",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "05d075bc-667a-4067-9cde-f99a535e4348",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "615170cd-ef43-4a27-9242-de4dd003769c",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "c2-120.consumption",
+            "monthly": "c2-120.monthly"
+        },
+        "name": "c2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "58df9b29-f650-48a3-ac49-89a5a97e1353",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "g2-15.consumption",
+            "monthly": "g2-15.monthly"
+        },
+        "name": "g2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3c2427be-6df3-44c4-b55b-2fae9fd42bd1",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "g2-15.consumption",
+            "monthly": "g2-15.monthly"
+        },
+        "name": "g2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "aa39f065-3dec-4a26-98f6-d4ab61d82183",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "g2-30.consumption",
+            "monthly": "g2-30.monthly"
+        },
+        "name": "g2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "b226f776-cd89-4dad-80c8-b848cc4ba4e7",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "g2-30.consumption",
+            "monthly": "g2-30.monthly"
+        },
+        "name": "g2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "e9e63555-45cf-429b-8e18-ed0fb17f249d",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "g3-30.consumption",
+            "monthly": "g3-30.monthly"
+        },
+        "name": "g3-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "fd3514d3-107e-47fb-b3e7-d1fe6be9fb6d",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "g3-30.consumption",
+            "monthly": "g3-30.monthly"
+        },
+        "name": "g3-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "eaa423da-534c-4f06-8fa7-f1d16218332e",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 600,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "g3-120.consumption",
+            "monthly": "g3-120.monthly"
+        },
+        "name": "g3-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "28790f3e-0aa8-4c2b-b3e2-81ba189e5e71",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 600,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "g3-120.consumption",
+            "monthly": "g3-120.monthly"
+        },
+        "name": "g3-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "991134ee-1605-42e6-aa31-02846ad2b27e",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "be579f83-aff4-4cb1-8268-a4ab3530a310",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "654b2e23-39f5-4dd2-bd0f-feb6a638dc2c",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "bd21e95a-b7ab-4fb8-b73d-9da625f6733d",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "6847bf23-3c8b-4489-8e22-5dbc43cf8d49",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "127d2704-ad39-4ea3-a280-ea02f6504992",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "79bfdbed-bbba-4518-af56-d021b987f6f6",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "d99f832d-35f0-48de-8a4c-9ac9fcd9db87",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "578882b3-60f9-4c51-a4fd-5fb6c751e6a2",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "cc69af15-b33f-4c6f-b78a-86799f684e1c",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "eee980b8-fe6d-49b5-b27c-a928aacf8c74",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "79382205-5f88-4602-bbe4-a0ec65cbba4b",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-15.consumption",
+            "monthly": "r2-15.monthly"
+        },
+        "name": "r2-15-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "c9db710b-001f-490d-bd5c-f8f86d25f315",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "d2ca0c8c-871e-462a-aa05-35b9265275ca",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "ec023b08-56f6-48f8-8aea-971ac313e6cf",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "c7de1cb1-321c-45a0-b60a-1f1806513413",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "dc348966-2b2e-4782-91b5-83960d03d581",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "e59d9d1a-6aeb-4374-ac28-555694b9d78c",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "52bc170e-11aa-4087-b503-0c9d0650a9bd",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "00eb53c1-d50b-4163-9b4b-a6455224b987",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "8edec7c7-07d5-4e77-ae92-95cd64758bd4",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "2edff3b6-6eba-46b6-b117-c05ae2821beb",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "1677f27a-9a24-4dd7-92a4-45ffa53b7684",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "5b8089f5-6976-401f-b084-033565a77a27",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-30.consumption",
+            "monthly": "r2-30.monthly"
+        },
+        "name": "r2-30-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3a531227-d1e8-4a95-983d-e5c994db0b8c",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "43acca2e-83b1-4a27-be5e-9aae65591bbd",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "8fe1752f-232c-4a57-a948-f9984a135bfc",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "60585584-6a23-4876-94f6-6164a3530a79",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "1a5fddab-4ddc-4619-ad29-09932b6bcb9f",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "146181d6-0c90-4d5f-99dc-8fb28599b4e5",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "363d0698-fa1b-4708-9ca8-bdf225498fd9",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "f9859b04-e523-4877-9068-20b5f9ad6e64",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "1af9d7dc-5af8-435b-96f9-785608dc1ca0",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "6eec4c20-18e3-44c0-9026-891823893811",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "83ed4c61-5825-4214-a062-96b1b16f8d68",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "f7b476ac-18fe-465d-8879-06c1fe860ad6",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-60.consumption",
+            "monthly": "r2-60.monthly"
+        },
+        "name": "r2-60-flex",
+        "osType": "linux",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "b6cb2549-7f79-4ec8-991d-e040c1b518ba",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "64bf2f5c-4b98-47fa-879a-b05513cc1128",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "8baa47b0-f1c0-4c2f-a844-1f88e5838b7d",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "2ddcb864-727b-47f9-a58a-4f956a3e9ef5",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "36ca564b-21ad-49ec-a91b-d6f8d3897d13",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "cb648e66-d01c-490b-81c6-1f93974c99f5",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "9a92fbc6-b781-4afd-92ad-d282400ea6db",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "c18d6af3-8a67-411f-b969-ec51a8cb1182",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "58097434-02e9-4f14-bd87-c19065e25063",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "c6507e91-a74c-4aa8-985b-38edd216d921",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "de217f52-10a1-46d4-9ab0-ee2092ec09f9",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "921a43cd-eb14-4c84-9613-2307467d00b4",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-120.consumption",
+            "monthly": "r2-120.monthly"
+        },
+        "name": "r2-120-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "1984fdd7-55d4-48d3-b3c8-21b25c5e6538",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "0526e13e-dad5-473f-ad61-2f15e0db2a15",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "7c98f8c1-76ea-494a-b006-350d699b4507",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0be8e554-5411-4a3c-af31-245da22579bc",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "26fd53ca-e88b-4edf-a204-ddade50c41a9",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "ab96fdf2-7470-4712-93e8-589335195df4",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "66824a1f-91a0-40d9-8b57-b358f8e82b37",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "9a8df023-1053-4349-a79c-c81602a43754",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "ef19937b-6b2f-4d31-88b7-117f99dc7744",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "a06da5f7-4ac3-4bab-87ff-021ba1f623c6",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "5c77cf3e-a030-4415-99e3-0e61c3605a10",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240-flex",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "780509cc-92e6-4e77-8c67-13afee55a2ff",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "r2-240.consumption",
+            "monthly": "r2-240.monthly"
+        },
+        "name": "r2-240-flex",
+        "osType": "linux",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "d145323c-2fe7-4084-98d8-f65c54bbbaf4",
+        "region": "GRA5",
+        "vcpus": 1,
+        "disk": 10,
+        "available": true,
+        "ram": 2000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-2.consumption",
+            "monthly": "s1-2.monthly"
+        },
+        "name": "s1-2",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "e9d6fb38-9bf0-44ac-adbf-30fee3c96096",
+        "region": "UK1",
+        "vcpus": 1,
+        "disk": 10,
+        "available": false,
+        "ram": 2000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-2.consumption",
+            "monthly": "s1-2.monthly"
+        },
+        "name": "s1-2",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "d31419c1-8e1e-48c2-8a4c-28190650c817",
+        "region": "DE1",
+        "vcpus": 1,
+        "disk": 10,
+        "available": true,
+        "ram": 2000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-2.consumption",
+            "monthly": "s1-2.monthly"
+        },
+        "name": "s1-2",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "a8a85ec5-12b4-4b05-8dc1-bd6bd02457d9",
+        "region": "BHS3",
+        "vcpus": 1,
+        "disk": 10,
+        "available": true,
+        "ram": 2000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-2.consumption",
+            "monthly": "s1-2.monthly"
+        },
+        "name": "s1-2",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "3cf2bf37-4e49-411a-93c1-8908ff3e05f0",
+        "region": "WAW1",
+        "vcpus": 1,
+        "disk": 10,
+        "available": true,
+        "ram": 2000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-2.consumption",
+            "monthly": "s1-2.monthly"
+        },
+        "name": "s1-2",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "ce07016c-95df-4085-bb5a-565caffc2063",
+        "region": "SBG5",
+        "vcpus": 1,
+        "disk": 10,
+        "available": true,
+        "ram": 2000,
+        "outboundBandwidth": 500,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-2.consumption",
+            "monthly": "s1-2.monthly"
+        },
+        "name": "s1-2",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "a47516ca-ebf5-4f9c-8d3d-d6ad3c6301a9",
+        "region": "WAW1",
+        "vcpus": 1,
+        "disk": 20,
+        "available": true,
+        "ram": 4000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-4.consumption",
+            "monthly": "s1-4.monthly"
+        },
+        "name": "s1-4",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "f92a622d-ba3b-4873-90fd-c0940c8533a1",
+        "region": "DE1",
+        "vcpus": 1,
+        "disk": 20,
+        "available": true,
+        "ram": 4000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-4.consumption",
+            "monthly": "s1-4.monthly"
+        },
+        "name": "s1-4",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "3c83dfbd-abdb-43d0-b041-3ac44009c2f7",
+        "region": "SBG5",
+        "vcpus": 1,
+        "disk": 20,
+        "available": true,
+        "ram": 4000,
+        "outboundBandwidth": 500,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-4.consumption",
+            "monthly": "s1-4.monthly"
+        },
+        "name": "s1-4",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "cbef4222-84ff-4f8b-ba40-e5ba85cfbb53",
+        "region": "GRA5",
+        "vcpus": 1,
+        "disk": 20,
+        "available": true,
+        "ram": 4000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-4.consumption",
+            "monthly": "s1-4.monthly"
+        },
+        "name": "s1-4",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "98f6f41f-384b-4a4b-b4eb-49a917a6c117",
+        "region": "UK1",
+        "vcpus": 1,
+        "disk": 20,
+        "available": true,
+        "ram": 4000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-4.consumption",
+            "monthly": "s1-4.monthly"
+        },
+        "name": "s1-4",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "92416632-fece-42f0-a6a4-70b2d416fa1d",
+        "region": "BHS3",
+        "vcpus": 1,
+        "disk": 20,
+        "available": true,
+        "ram": 4000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-4.consumption",
+            "monthly": "s1-4.monthly"
+        },
+        "name": "s1-4",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "ca4c4774-a9bf-4739-b424-6c6f54ced3bf",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 40,
+        "available": true,
+        "ram": 8000,
+        "outboundBandwidth": 500,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-8.consumption",
+            "monthly": "s1-8.monthly"
+        },
+        "name": "s1-8",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "db9b3c2b-921a-468a-83ac-072853210bd5",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 40,
+        "available": true,
+        "ram": 8000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-8.consumption",
+            "monthly": "s1-8.monthly"
+        },
+        "name": "s1-8",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "ea5c6bc6-068f-479d-8193-0f1170e41fcb",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 40,
+        "available": true,
+        "ram": 8000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-8.consumption",
+            "monthly": "s1-8.monthly"
+        },
+        "name": "s1-8",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "2f5e4d34-3784-4ea6-be33-8501b056ac08",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 40,
+        "available": true,
+        "ram": 8000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-8.consumption",
+            "monthly": "s1-8.monthly"
+        },
+        "name": "s1-8",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "defa64c3-bd46-43b4-858a-d93bbae0a229",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 40,
+        "available": true,
+        "ram": 8000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-8.consumption",
+            "monthly": "s1-8.monthly"
+        },
+        "name": "s1-8",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "3cc7adaa-209e-48b2-9a69-4796e8257933",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 40,
+        "available": true,
+        "ram": 8000,
+        "outboundBandwidth": 100,
+        "type": "ovh.vps-ssd",
+        "planCodes": {
+            "hourly": "s1-8.consumption",
+            "monthly": "s1-8.monthly"
+        },
+        "name": "s1-8",
+        "osType": "linux",
+        "inboundBandwidth": 100
+    },
+    {
+        "id": "1b5dec62-4e43-4b06-ba27-5080f8dcba8e",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 400,
+        "available": true,
+        "ram": 45000,
+        "outboundBandwidth": 500,
+        "type": "ovh.raid-nvme.t1",
+        "planCodes": {
+            "hourly": "t1-45.consumption",
+            "monthly": "t1-45.monthly"
+        },
+        "name": "t1-45",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "b0cbf7bc-fb23-4149-b9f4-817e448c33e2",
+        "region": "GRA5",
+        "vcpus": 18,
+        "disk": 800,
+        "available": true,
+        "ram": 90000,
+        "outboundBandwidth": 500,
+        "type": "ovh.raid-nvme.t1",
+        "planCodes": {
+            "hourly": "t1-90.consumption",
+            "monthly": "t1-90.monthly"
+        },
+        "name": "t1-90",
+        "osType": "linux",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "8d8335fe-61d5-4d82-8000-a93c9720bb3f",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "67299ca1-5992-458b-9785-71290d16bdf6",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "12d53851-80d6-4e02-b9ad-9c36d6fcc29d",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "a34e6802-8318-4514-b5c2-e2c2974c9bea",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "1faed731-1de8-4f04-97c0-e6e976c8445e",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "073ad817-d2b0-44bf-8d89-bf9f7eac413e",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "a2e78cda-57b1-4a16-a3fd-27da9e323e0a",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "5eaac94e-7a75-4047-8353-2f323c8df155",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "405a4af2-32a1-457d-affe-36f4cface892",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "b77e55e6-a790-43c8-bc23-26fa24fe5e0e",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "0b4fd7e7-314f-4ac7-86cf-92c07b90e2bf",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "ea27fd1b-e839-44b2-a59c-22466b26a523",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-7.consumption",
+            "monthly": "win-b2-7.monthly"
+        },
+        "name": "win-b2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "2103afa1-d022-4af2-8819-a483f2030abb",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "2e775d69-375e-46bb-9587-09e86d2031b7",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3e2a7964-54b0-4f97-a23e-945ba16a50fe",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "17e0187f-d0f2-4ac1-8e8a-2e5345653337",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "036e9748-b11e-427e-83af-407b2deee51b",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "89558292-4162-4069-b0f9-26addc182c8e",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "ca7afaa2-2820-4dca-9a12-d8255a0a2e84",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "67af2ab3-1b9b-435f-bfff-6c7f191e1203",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "1555d5f3-01e4-4cbf-b907-ab86efbe41c5",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "20e599af-3bc9-4baa-b04f-a0254e65f0e3",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "6d9d88a4-e1f2-4dcd-b8be-4d1a54e3f3f2",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "b4138f9b-768e-45fa-afa0-553ede1c0d10",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-15.consumption",
+            "monthly": "win-b2-15.monthly"
+        },
+        "name": "win-b2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "6cfed952-6ae5-40d0-b2ee-f976a139d8d6",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "4d9ed9dd-4400-44f2-8cf5-936cf29e76a4",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "cefd634c-4612-4e0d-96dd-c60c22aafd94",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0ef7adf8-388d-48f9-be7a-4658ae346161",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "a59fc63f-d6db-4cd5-ad2e-733d3c3e5f57",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "3d5a3aae-8e32-40fe-ab2c-4ca2eea56901",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "97c61e10-bf43-4f95-9e2d-fd757ba75e27",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "31c138d0-afc6-42d5-b731-5f5c612a3003",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "144b85c9-5edd-4209-8114-fb58ed2c6451",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "80f48bf8-6f5f-4368-8b97-10f982470c8f",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "aa700c25-b4ac-4021-82cc-ab7a0a8f338a",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "69103b96-1f41-455f-bd3f-e9c9dba07f39",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-30.consumption",
+            "monthly": "win-b2-30.monthly"
+        },
+        "name": "win-b2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "dfc30cba-a2e7-436f-a487-cae7e4f015ca",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "8b3fa0a9-6934-492d-a340-a1e14d939756",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "072f03e8-7c92-435e-8fa0-3c4f249bda00",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "119da968-1ee2-4536-b25c-67f9f6236792",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "e084e7f8-f005-4e22-ad56-115d1170c99e",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "6512d386-1fbd-4867-8d3f-2ba8c2fa5828",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "4aaa8c9b-3730-4bc3-b35e-9f724c9849f7",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "745a6ec2-04c8-4d47-951d-df38eea10b8b",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "3f49b79b-a36f-46ca-8ec6-7d061c46ed5d",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "92fc62c8-bec4-4804-aa50-b202c8a6b0ec",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "fc9f7223-5d1e-4dc3-9e15-d3960302d5b6",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "49e0b0a0-84f3-4e4f-85da-30a562807b3a",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-60.consumption",
+            "monthly": "win-b2-60.monthly"
+        },
+        "name": "win-b2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "92b06ab1-146b-4c55-b70d-3b36417ba244",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "52922717-0944-406f-97e6-8e3a1fc5293d",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "30d8da19-d0e7-413c-825f-5737d871a455",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 400,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "c9481a1d-03a5-4b5b-a0db-d4667cb4ca74",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "4c59b3b5-eb3f-446a-b492-95dd15571c08",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "5915cbae-eaa4-42ea-b3e9-ee643df1015b",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "17a45e08-4aae-46c1-a3f6-2d7c0712fd8c",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "eff272dd-68b6-42fe-a12a-973da436d1fc",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "24ff2c52-c553-4e5f-95c1-1c1a14ade841",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0e070198-3558-4d86-9187-f535d3cb49d7",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 50,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "6924348c-55a5-4df5-ae9a-c41fc86971fd",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "b16884ad-2770-41f2-bd00-99868953fb11",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.eg",
+        "planCodes": {
+            "hourly": "win-b2-120.consumption",
+            "monthly": "win-b2-120.monthly"
+        },
+        "name": "win-b2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "6d99560b-626b-49e8-9562-358cc341ec84",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "46f9c7a9-96e5-4a06-ab0c-22e85610003c",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "17dc0e40-2bca-4f6f-9a0d-6061cba75a86",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "880e2f4c-0248-4407-8113-960d38fbf761",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "9c5bf8fb-5a1b-4371-be4e-ba0db873dca6",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "c8e55a81-8424-4f93-a03d-36bdac69a1e1",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "01be8cab-8863-458a-93d8-f19b9867f9c4",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "2ee71e14-d56f-47ff-8634-3ee532f5f191",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "94b04408-780f-4596-9322-171bb3194e86",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "f21e8766-ec86-47e6-a9c2-2d9317f79fab",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "62635846-fcef-4806-9a0e-3474110265a2",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "5ac4b4b6-5c2c-4258-a6fa-99c0c85181f1",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 7000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-7.consumption",
+            "monthly": "win-c2-7.monthly"
+        },
+        "name": "win-c2-7-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "bac3fc5d-404f-46e1-a0cb-3332233641ea",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "defef2bf-9d1a-4d74-b1ca-2766c498967e",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "97935e5e-b052-4168-be7a-16e95d7c7fea",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "59ad5c4c-9ab4-4002-a340-5e0a3b6fcbe9",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "582a51dd-3470-4306-b17c-bbe8c5717a72",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "1fca8c56-a00e-4377-b507-3b7b2bd01c06",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "6eacd057-9bac-41f7-a5bd-dcbc38fdcbd7",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "e838dcf5-8ae4-4695-9922-17efebe720ea",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "cc02ff1f-d7a1-4562-a584-a4dfa23948a0",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "591307a2-5623-4436-804b-bc5d76183298",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "05328384-0af5-4c50-82dd-c969fe85288e",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "90475bbf-c394-4696-8860-4950070b357e",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-15.consumption",
+            "monthly": "win-c2-15.monthly"
+        },
+        "name": "win-c2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "552a3a0c-cb5f-4750-9980-c61aa48453e8",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "533cf95c-21cd-4713-b1a1-504407e322e5",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "39ab1ae8-8e9d-4667-8d7a-41e5b5417458",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "47dc8a6a-859d-421a-b471-cce00e471e42",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "a14fa40d-6548-4a34-bb0e-8fbaa512391a",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": false,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "bbd94dee-8707-4862-8fa5-b820894956cc",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "adab7207-c4cb-4c44-8845-b69763a10d03",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "5c10da61-ca51-420b-82f3-69d6cb59ee43",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "65b5a6f0-ca22-4cc2-9176-653f4a2b6fa0",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "32bf580d-ab47-4b8e-880b-5fb505cf9c81",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "402b244f-2009-4d32-a26e-1d9019ebc2d0",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": false,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "eb815ac4-72d5-4f63-8fcc-66c12c1bb58a",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-30.consumption",
+            "monthly": "win-c2-30.monthly"
+        },
+        "name": "win-c2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "cb2d6980-9ec1-4616-b7ff-428284157097",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "da85d04d-994d-4756-8430-83f1c3c5927e",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "a11f1730-486d-45a3-b3ba-734024ea93b3",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "3d0a4f9c-5b73-4871-9cdd-3dc3c7901b57",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "b79f3667-e448-4f38-b5f1-f3e2eff1b0a6",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "8cd9b182-776d-4250-a516-9ec143889ac1",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "815dcab4-cbca-4abb-bbfd-b080b28a4fea",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "fb73b8a0-8bde-4fd1-887d-9a18c1c43214",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "961b369b-5682-41de-895e-935e0d409fad",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "42b046f4-5941-48fc-854c-285f80aff4c9",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "de1b52d0-ea80-4d88-adc4-bba8d07bb378",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "52d04103-8c19-4bb6-9738-ba616063d6e8",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-60.consumption",
+            "monthly": "win-c2-60.monthly"
+        },
+        "name": "win-c2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "2fe2bd07-cf83-4fd5-9947-b723da7394ff",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "1c34c837-ae0d-4ec1-8445-04c1c53101f1",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "7ae40a3b-fb9d-4d97-b737-c42ce73b5ff9",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "a14c66cb-2469-4f7b-baea-945cb3eb488a",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "ce6ec9ee-412a-4215-9f03-b58cafffd6f4",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "d5d7fa84-af9f-492e-8e10-22d8d0219e80",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 400,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "251b61c9-3e23-4bb6-ab2a-e057b0b42eef",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "404c52ef-1fb9-49e7-af8d-d926f85b3d54",
+        "region": "DE1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "e0b3c950-3b3b-49e5-bda7-5230fd1ee8f9",
+        "region": "UK1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "f24495b3-d3c0-4fc3-be47-78d05e8eeeae",
+        "region": "WAW1",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "dcf3e3c7-abd6-4362-9ee3-2f150fe1d2cc",
+        "region": "SBG5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "551f4133-4306-4c36-85ff-5665aadf18f6",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.cpu",
+        "planCodes": {
+            "hourly": "win-c2-120.consumption",
+            "monthly": "win-c2-120.monthly"
+        },
+        "name": "win-c2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "e260c1fa-42ca-4367-93d0-bdb8ecab3f84",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "win-g2-15.consumption",
+            "monthly": "win-g2-15.monthly"
+        },
+        "name": "win-g2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "f3ce2c82-9e3b-4dcc-b09f-81329d12672c",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "win-g2-15.consumption",
+            "monthly": "win-g2-15.monthly"
+        },
+        "name": "win-g2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "8d7d1ce5-74a7-4285-b845-c7d96b6e4c00",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "win-g2-30.consumption",
+            "monthly": "win-g2-30.monthly"
+        },
+        "name": "win-g2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "085a4847-1b55-40f2-89f8-23f35007e9b5",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu2",
+        "planCodes": {
+            "hourly": "win-g2-30.consumption",
+            "monthly": "win-g2-30.monthly"
+        },
+        "name": "win-g2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "87c752d9-f96d-4f50-89c7-a0d23d8247eb",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "win-g3-30.consumption",
+            "monthly": "win-g3-30.monthly"
+        },
+        "name": "win-g3-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "b4849a5d-6c00-46f5-9238-5be79a9c08d6",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "win-g3-30.consumption",
+            "monthly": "win-g3-30.monthly"
+        },
+        "name": "win-g3-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "06ee6a4b-a971-4d33-ad2d-02fe3e1810bd",
+        "region": "GRA5",
+        "vcpus": 32,
+        "disk": 600,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "win-g3-120.consumption",
+            "monthly": "win-g3-120.monthly"
+        },
+        "name": "win-g3-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "af50b185-7eba-44ae-87c4-f975e5ee21d1",
+        "region": "BHS3",
+        "vcpus": 32,
+        "disk": 600,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.gpu3",
+        "planCodes": {
+            "hourly": "win-g3-120.consumption",
+            "monthly": "win-g3-120.monthly"
+        },
+        "name": "win-g3-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "78dc5ac4-2e19-436c-b74f-c684c236ba72",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "0f7e0bf9-8100-4fd4-b238-29b1915481c4",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "d9111ccf-4456-4ad6-a83c-3a80dd089823",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3158f8ba-e24e-4dae-b72c-6131ffbe3b9b",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "e9d6cff8-4c35-405c-8e16-31db96446365",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "faa58a9b-39a1-400e-941a-81ee4023e04a",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "da64e51d-edac-4b66-88fc-b9da3bd887fc",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3db1956c-b5bd-42d5-a93a-8d61398d2129",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "8c5f6818-17f8-4150-a4ac-b5a1348f5b31",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "feed2255-b6d6-498b-bc02-d5c60d198d7c",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "d5acc03f-46cb-410b-821b-baadc550348e",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "8b28d5b5-88a1-476d-8387-205546afda5a",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 15000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-15.consumption",
+            "monthly": "win-r2-15.monthly"
+        },
+        "name": "win-r2-15-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "7336b8d8-cd90-4a8c-a255-51b9191584d8",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "e5130950-7557-444f-bc9a-d1f6acf3cf9b",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "ed0217f4-78fb-4a5d-999b-721015411d99",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "80eba0ec-bf82-444c-8171-5e1798f80f15",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3b137bad-0d92-470d-9f19-3ee31e4da2db",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "47377d1a-973c-4e34-8821-21558c9c0412",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "5fbcf77e-74ca-4140-abe6-66e8f8058dc4",
+        "region": "WAW1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "8a241106-ccf7-4f33-8d5a-56d2be4039dc",
+        "region": "DE1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "14dd7c10-6504-4655-b5a7-685370fedbb5",
+        "region": "GRA5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "63e67014-0f6a-4d48-a9e5-d75ff276c294",
+        "region": "UK1",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "5c6189d1-b235-4a39-ad26-c6fd4bb6c851",
+        "region": "SBG5",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "939eda58-53b7-4647-9ea9-66a138d60d98",
+        "region": "BHS3",
+        "vcpus": 2,
+        "disk": 50,
+        "available": true,
+        "ram": 30000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-30.consumption",
+            "monthly": "win-r2-30.monthly"
+        },
+        "name": "win-r2-30-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "40c2bf6e-5a8a-4de1-a4c9-16961682e7c1",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": false,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "91e5eb72-e4c2-46dc-bdf5-f3dee0b6e312",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "118468d4-9175-4402-bec9-961a6d1c664e",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "c50fb0f8-2f81-45f5-81a9-e51f7b4001ca",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "b44a202a-e6af-46a8-b926-970b3b68293d",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "3357ffbd-e6b1-4a8a-af48-5322604753b1",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 100,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "b0415784-7caf-4da5-ab5b-430430d6c7a2",
+        "region": "BHS3",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "20ae3286-a9f4-4c65-9502-c8545be102f3",
+        "region": "SBG5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "20ca57cd-072b-40ff-aa95-58de51c47df4",
+        "region": "DE1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "50dd2736-ddc5-46d2-a4a9-00402a02ac20",
+        "region": "WAW1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": false,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "d7261d3e-6d24-48d2-b77d-d8f3a15f88b5",
+        "region": "UK1",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "20d0fb29-ab11-43b8-a139-e496d5521eb6",
+        "region": "GRA5",
+        "vcpus": 4,
+        "disk": 50,
+        "available": true,
+        "ram": 60000,
+        "outboundBandwidth": 250,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-60.consumption",
+            "monthly": "win-r2-60.monthly"
+        },
+        "name": "win-r2-60-flex",
+        "osType": "windows",
+        "inboundBandwidth": 250
+    },
+    {
+        "id": "410adcf7-7980-4b61-98e4-90605a9c88f8",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "c74f626e-2e31-4b55-ad84-2f802f43fab4",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "9ea2f388-35ea-4ebf-ac6b-bc40ddcfa952",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "2c8f6ed0-b505-4d37-9abe-547266f0cc34",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0c4c4c54-a5d3-4229-a6c4-8b7df767407b",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "f57d2fd6-16c2-4f8a-80bc-3df03bcc4e2d",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 200,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "c8fffc15-228a-47f4-9233-9b64aab33265",
+        "region": "UK1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "02b64958-cc9e-4eb8-a6ad-ad3ea93054df",
+        "region": "BHS3",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "5fd369b1-275d-4e87-93ec-72912f4a78f2",
+        "region": "GRA5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "d00fdefc-9ada-4fc0-86b4-db505b6c1408",
+        "region": "SBG5",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "d9ecf068-a49c-4bd5-8762-159b88cd5afb",
+        "region": "WAW1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": false,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "78f5db3e-79cc-4af2-a264-381fd59a0f3b",
+        "region": "DE1",
+        "vcpus": 8,
+        "disk": 50,
+        "available": true,
+        "ram": 120000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-120.consumption",
+            "monthly": "win-r2-120.monthly"
+        },
+        "name": "win-r2-120-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "0222ed5e-8e92-46e9-9be1-63724dbeaa62",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "9402e564-3590-432f-9f6d-ade8a95efd9d",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "e6b164e3-1a75-469a-9e15-ed4b5791b203",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "bf613934-896a-47a7-ace0-68c7bee443de",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "90fdf8a7-5f3b-4903-bb10-1471cc9e5750",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "2dc9d22f-3038-4ebf-a159-8994fca1c438",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 400,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "601b0915-73e1-4264-93e5-8242d31e3283",
+        "region": "SBG5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": 500,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240-flex",
+        "osType": "windows",
+        "inboundBandwidth": 500
+    },
+    {
+        "id": "88b7e8a6-5f64-4f15-a02d-3dff5c0f0fe7",
+        "region": "UK1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "dc036935-f46f-4b63-a342-da5358ba5454",
+        "region": "GRA5",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "a2925567-75ae-429a-bcce-ea4cc6c17fbf",
+        "region": "WAW1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "5f3ae808-527e-4d47-b54a-92ca8094b3ab",
+        "region": "BHS3",
+        "vcpus": 16,
+        "disk": 50,
+        "available": true,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    },
+    {
+        "id": "645005aa-7ae5-4f59-88a2-6918a3fc5631",
+        "region": "DE1",
+        "vcpus": 16,
+        "disk": 50,
+        "available": false,
+        "ram": 240000,
+        "outboundBandwidth": null,
+        "type": "ovh.ssd.ram",
+        "planCodes": {
+            "hourly": "win-r2-240.consumption",
+            "monthly": "win-r2-240.monthly"
+        },
+        "name": "win-r2-240-flex",
+        "osType": "windows",
+        "inboundBandwidth": null
+    }
+]

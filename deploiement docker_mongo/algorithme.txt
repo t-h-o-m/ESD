@@ -1,0 +1,62 @@
+Script déploiment docker
+
+
+pré flag
+	crypt = cripted docker user passwd (use mkpasswd from package whois to generate one)
+
+Vérification compte root
+	if($LOGNAME != "root" )
+		{error 1 "not root"}
+	
+pré installation sudo
+	apt list --installed sudo
+		flag 1 "sudo already installed"
+		
+installation sudo
+	if (flag1 = false)
+		{apt install sudo -y}
+		
+pré création utilisateur docker
+	awk -F':' '{ print $1}' /etc/passwd | grep docker
+		flag 2 "user docker already created"
+	if (flag2 = true)
+		{
+		demande si utilisation de l'utilisateur docker déjà créé
+		if(yes = true)
+			{flag 3 "use already created user docker"}
+		else
+			{error 2 " used docker already created"}
+		}
+	
+
+création compte docker
+	if (flag2 && flag3 = false)
+		{sudo useradd -m  -r -N -p [crypt] -s /bin/bash docker}
+			error 3 "failed to create user docker"
+	
+	
+
+	
+
+(
+pré installation docker
+
+installation docker
+	source docker_install
+)
+tester si docker est bien installé
+	docker version
+	if ($? != 0 )
+		{erreur 4 "error in running docker"}
+	docker run hello-world
+	if ($? != 0)
+		{erreur 5 "failed to lunch a container"}
+
+changement en compte docker
+	usermod -aG  docker docker
+	su docker
+	newgrp docker
+
+lancement container mongo DB
+	source docker_mongoDB_deployement.sh
+
