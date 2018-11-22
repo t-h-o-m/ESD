@@ -53,7 +53,7 @@ result = client.post('/cloud/project/8b98da39645b4f119ae33b1087d2355f/instance',
 #    networks=None, #// Create network interfaces (type: cloud.instance.NetworkParams[])
     region=regionid, #// Instance region (type: string)
     sshKeyId=sshid, #// SSH keypair id (type: string)
-    userData="sudo apt-get update; sudo apt-get install -y tree" , #// Configuration information or scripts to use upon launch (type: text)
+#    userData="sudo apt-get update; sudo apt-get install -y tree" , #// Configuration information or scripts to use upon launch (type: text)
 #    volumeId=None,
 )
 
