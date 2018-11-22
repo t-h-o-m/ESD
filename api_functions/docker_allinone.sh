@@ -136,7 +136,6 @@ return $?
 ## Run the job(s) that don't need root
 #For instance : su user -c "command arguments"
 #su docker -c "bash /opt/deploiement/docker_deployment.sh mongodb 27017 27017 $d_image"
-su docker -c "mkdir /home/docker/containers/$nomcontainer"
+su docker -c "mkdir /home/$user/containers/$nomcontainer"
 su docker -c "docker run -d --name $nomcontainer -v /home/docker/containers/$nomcontainer:/data/db -p $hport:$cport $d_image"
 su docker -c "docker ps"
-
