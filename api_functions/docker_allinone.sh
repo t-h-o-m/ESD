@@ -3,8 +3,6 @@
 #################
 ##SCRIPT COMMAND USAGE : bash docker_main.sh {argument1} {argument2} {argument3} {argumentn}
 #Arguments check
-sudo apt-get update
-sudo apt-get upgrade -y
 
 user=$1
 hash=$2
@@ -48,9 +46,9 @@ then cport=27017
 fi
 
 ##DEBUG ECHOs
-echo "Chosen username is $user ."
-echo "Hashed password is $hash ."
-echo "Chosen docker image is $dimage ."
+#echo "Chosen username is $user ."
+#echo "Hashed password is $hash ."
+#echo "Chosen docker image is $dimage ."
 
 # Exit if the script was not launched by root
 #if [ $USER != "root" ]
@@ -60,79 +58,92 @@ echo "Chosen docker image is $dimage ."
 ## Run the job that needs to be run as root
 #For instance : command arguments
 #bash docker_apt.sh sudo
-apt list --installed $soft | grep $soft
-if [ $? = 0 ]
-  then
-    flag1=true
-  else
-    flag1=false
-fi
-#Install package with apt
-if  [ $flag1 != true ]
-  then
-   apt install $soft -y
-fi
-return $?
-
+function docker_apt{
+	apt list --installed $1 | grep $1
+	if [ $? = 0 ]
+	  then
+		flag1=true
+	  else
+		flag1=false
+	fi
+	#Install package with apt
+	if  [ $flag1 != true ]
+	  then
+	   apt install $1 -y
+	fi
+	return $?
+}
+docker_apt $soft
 
 ########################
 flag3=false
 #bash docker_createuser.sh $user $hash $flag3
-awk -F':' '{ print $user}' /etc/passwd | grep $user
-if [ $? = 0 ]
-  then
-    flag2=true
-  else
-    flag2=false
-fi
-if [ $flag2 = true ]
-  then
-    if [ $flag3 = true ]
-      then
-        return 0
-      else
-        return 2
-    fi
-  else
-   useradd -m  -r -N -p $hash -s /bin/bash $user
-    if [ $? != 0 ]
-      then
-        return 3
-    fi
-fi
+function docker_createuser {
+	awk -F':' '{ print $user}' /etc/passwd | grep $user
+	if [ $? = 0 ]
+	  then
+		flag2=true
+	  else
+		flag2=false
+	fi
+	if [ $flag2 = true ]
+	  then
+		if [ $3 = true ]
+		  then
+			return 0
+		  else
+			return 2
+		fi
+	  else
+	   useradd -m  -r -N -p $2 -s /bin/bash $1
+		if [ $? != 0 ]
+		  then
+			return 3
+		fi
+	fi
 return $?
+}
+docker_createuser $user $hash $flag3
 ##################
 #bash docker_install.sh $user
-apt purge docker docker-engine docker.io -y
-apt update
-apt install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
-add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add
-apt-key fingerprint 0EBFCD88
-apt update && apt install -y docker-ce
-su $user -c "mkdir /home/$user/containers"
-
+function docker_install {
+	apt purge docker docker-engine docker.io -y
+	apt update
+	apt install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
+	add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+	curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add
+	apt-key fingerprint 0EBFCD88
+	apt update && apt install -y docker-ce
+	su $1 -c "mkdir /home/$user/containers"
+}
+docker_install $user
 #bash docker_testinstall.sh
-docker version
-if [ $? -ne 0 ]
-  then
-    return 4
-fi
-docker run --name hello-world hello-world
-if [ $? -ne 0 ]
-  then
-   docker ps -a
-   docker stop hello-world && docker rm hello-world
-    return 5
-fi
-  docker ps -a
-  docker stop hello-world && docker rm hello-world
-return $?
+function docker_testinstall {
+	docker version
+	if [ $? -ne 0 ]
+	  then
+		return 4
+	fi
+	docker run --name hello-world hello-world
+	if [ $? -ne 0 ]
+	  then
+	   docker ps -a
+	   docker stop hello-world && docker rm hello-world
+		return 5
+	fi
+	  docker ps -a
+	  docker stop hello-world && docker rm hello-world
+	return $?
+}
+docker_testinstall
 
 #bash docker_usermod.sh $user docker
-groupadd $group
-usermod -g $group $user
-return $?
+function docker_usermod {
+	groupadd $2
+	usermod -g $2 $1
+	return $?
+}
+docker_usermod $user $group
 ## Run the job(s) that don't need root
 #For instance : su user -c "command arguments"
 #su docker -c "bash /opt/deploiement/docker_deployment.sh mongodb 27017 27017 $dimage"
