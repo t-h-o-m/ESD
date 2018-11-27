@@ -8,10 +8,10 @@ sudo apt-get upgrade -y
 
 user=$1
 hash=$2
-d_image=$3
+dimage=$3
 soft=$4
 group=$5
-nomcontainer=$6
+cname=$6
 hport=$7
 cport=$8
 
@@ -19,8 +19,8 @@ if [ -z $user ]
 then user=docker
 fi
 
-if [ -z $d_image ]
-then d_image=mongo
+if [ -z $dimage ]
+then dimage=mongo
 fi
 
 if [ -z $hash ]
@@ -35,8 +35,8 @@ if [ -z $group ]
 then group=docker
 fi
 
-if [ -z $nomcontainer ]
-then nomcontainer=mongodb
+if [ -z $cname ]
+then cname=mongodb
 fi
 
 if [ -z $hport ]
@@ -48,9 +48,9 @@ then cport=27017
 fi
 
 ##DEBUG ECHOs
-echo "Le nom d'utilisateur choisi est $user "
-echo "Le mot de passe (hashé) est $hash "
-echo "L'image docker $d_image est utilisé "
+echo "Chosen username is $user ."
+echo "Hashed password is $hash ."
+echo "Chosen docker image is $dimage ."
 
 # Exit if the script was not launched by root
 #if [ $USER != "root" ]
@@ -135,7 +135,7 @@ usermod -g $group $user
 return $?
 ## Run the job(s) that don't need root
 #For instance : su user -c "command arguments"
-#su docker -c "bash /opt/deploiement/docker_deployment.sh mongodb 27017 27017 $d_image"
-su docker -c "mkdir /home/$user/containers/$nomcontainer"
-su docker -c "docker run -d --name $nomcontainer -v /home/docker/containers/$nomcontainer:/data/db -p $hport:$cport $d_image"
+#su docker -c "bash /opt/deploiement/docker_deployment.sh mongodb 27017 27017 $dimage"
+su docker -c "mkdir /home/$user/containers/$cname"
+su docker -c "docker run -d --name $cname -v /home/$user/containers/$cname:/data/db -p $hport:$cport $dimage"
 su docker -c "docker ps"
