@@ -14,14 +14,7 @@ $flavorid = $_POST['flavorid'];
 $_SESSION['sshkey'] = $sshkey;
 $_SESSION['flavorid'] = $flavorid;
 }
-if (isset($_POST['confirm'])) {
-$flavorid = $_SESSION['flavorid'];
-$sshkey = $_SESSION['sshkey']; 
-$imageid = $_SESSION['imageid']; 
-    
-    $createinstance = shell_exec("sudo sh master.sh $projectname $regionid $flavorid $imageid $sshkey"); 
-    echo $createinstance;
-}
+
 ?>
     <!doctype html>
     <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -118,43 +111,70 @@ $imageid = $_SESSION['imageid'];
 
             <div class="content mt-3">
                 <div class="animated fadeIn">
-                    <form action="" method="post">
-                        <div class="form-group">
-                            <label for="projectname">Project Name</label>
-                            <input type="text" readonly class="form-control" id="projectname" value="<?php echo $projectname ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="regionid">Region</label>
-                            <input type="text" readonly class="form-control" id="regionid" value="<?php echo $regionid ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="regionid">Flavor id</label>
-                            <input type="text" readonly class="form-control" id="regionid" value="<?php echo $flavorid ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="regionid">SSH Key</label>
-                            <input type="text" readonly class="form-control" id="sshkey" value="<?php echo $sshkey ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="image">Image id</label>
-                             <?php
+                    <?php
+                    if (isset($_POST['confirm'])) {
+$flavorid = $_SESSION['flavorid'];
+$sshkey = $_SESSION['sshkey']; 
+$imageid = $_SESSION['imageid']; 
+    
+    $createinstance = shell_exec("sudo sh master.sh $projectname $regionid $flavorid $imageid $sshkey"); 
+                      $machine1 = shell_exec("sudo cat resultat.json"); 
+                      $machine2 = shell_exec("sudo cat resultat2.json"); 
+                      $machine3 = shell_exec("sudo cat resultat3.json"); 
+
+                    ?>
+                            <div class="alert alert-success" role="alert">
+                                <h4 class="alert-heading">Succès !</h4>
+                                <p>Vous avez bien creer les 3 machines virtuelles chez OVH. Elles ont les IPs suivantes :.</p>
+                                <hr>
+                                <p class="mb-0">Machine 1 : <?php echo $machine1 ?>/ Machine 2 : <?php echo $machine2 ?>/ Machine 3 : <?php echo $machine3 ?></p>
+                            </div>
+                            <textarea id='myText'  rows="30" cols="225"><?php echo $createinstance; ?></textarea>
+<?php } ?>                        
+<form action="" method="post">
+                            <div class="form-group">
+                                <label for="projectname">Project Name</label>
+                                <input type="text" readonly class="form-control" id="projectname" value="<?php echo $projectname ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="regionid">Region</label>
+                                <input type="text" readonly class="form-control" id="regionid" value="<?php echo $regionid ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="regionid">Flavor id</label>
+                                <input type="text" readonly class="form-control" id="regionid" value="<?php echo $flavorid ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="regionid">SSH Key</label>
+                                <input type="text" readonly class="form-control" id="sshkey" value="<?php echo $sshkey ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="image">Image id</label>
+                                <?php
                                 $getimage = shell_exec("sudo python script/get_images.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -rid $regionid"); 
                                 $json_image = json_decode($getimage, true); 
 				                $length = count($json_image); 
                                     for ($i = 0; $i < $length; $i++) { 
 					if ($json_image[$i]['name'] == "Debian 9"){
 					?>
-                            
-                            <input type="text" readonly class="form-control" id="imageid" value="<?php echo $json_image[$i]['id'];?>" placeholder="<?php echo "Image : ".$json_image[$i]['name'];?>">
+
+                                    <input type="text" readonly class="form-control" id="imageid" value="<?php echo $json_image[$i]['id'];?>" placeholder="<?php echo " Image : ".$json_image[$i]['name'];?>">
                                     <?php
                         $_SESSION['imageid'] = $json_image[$i]['id'];
 					} else { }
                                      }
                                     ?>
-                           
-                        </div>
-                        <button type="submit" style="float:right" name="confirm" class="btn btn-primary">Confirmer</button>
-                    </form>
+
+                            </div>
+                            <?php
+                        if (!isset($_POST['confirm'])) {
+
+    ?>
+                                <button type="submit" style="float:right" name="confirm" class="btn btn-primary">Confirmer</button>
+                                <?php
+                        }
+                            ?>
+                        </form>
                 </div>
             </div>
 
