@@ -13,36 +13,37 @@ cname=$6
 hport=$7
 cport=$8
 
+#Check if var is empty then default value
 if [ -z $user ]
-then user=docker
+	then user=docker
 fi
 
 if [ -z $dimage ]
-then dimage=mongo
+	then dimage=mongo
 fi
 
 if [ -z $hash ]
-then hash=O.vrCmD1.nb9.
+	then hash=O.vrCmD1.nb9.
 fi
 
 if [ -z $soft ]
-then soft=sudo
+	then soft=sudo
 fi
 
 if [ -z $group ]
-then group=docker
+	then group=docker
 fi
 
 if [ -z $cname ]
-then cname=mongodb
+	then cname=mongodb
 fi
 
 if [ -z $hport ]
-then hport=27017
+	then hport=27017
 fi
 
 if [ -z $cport ]
-then cport=27017
+	then cport=27017
 fi
 
 ##DEBUG ECHOs
@@ -53,12 +54,12 @@ fi
 # Exit if the script was not launched by root
 #if [ $USER != "root" ]
 #then
-#    sudo echo "The script needs to run as root" && exit 1
+#   echo "The script needs to run as root" && exit 1
 #fi
 ## Run the job that needs to be run as root
 #For instance : command arguments
-#bash docker_apt.sh sudo
-function docker_apt{
+#Installation of sudo if not already there
+function docker_apt {
 	apt list --installed $1 | grep $1
 	if [ $? = 0 ]
 	  then
@@ -77,7 +78,7 @@ docker_apt $soft
 
 ########################
 flag3=false
-#bash docker_createuser.sh $user $hash $flag3
+#creation of docker user
 function docker_createuser {
 	awk -F':' '{ print $user}' /etc/passwd | grep $user
 	if [ $? = 0 ]
@@ -105,7 +106,7 @@ return $?
 }
 docker_createuser $user $hash $flag3
 ##################
-#bash docker_install.sh $user
+#Installation of Docker Community Edition for latest Debian 9.x
 function docker_install {
 	apt purge docker docker-engine docker.io -y
 	apt update
@@ -117,7 +118,7 @@ function docker_install {
 	su $1 -c "mkdir /home/$user/containers"
 }
 docker_install $user
-#bash docker_testinstall.sh
+#verify docker is installed
 function docker_testinstall {
 	docker version
 	if [ $? -ne 0 ]
@@ -137,16 +138,25 @@ function docker_testinstall {
 }
 docker_testinstall
 
-#bash docker_usermod.sh $user docker
+#give permissions to docker user to use docker
 function docker_usermod {
 	groupadd $2
 	usermod -g $2 $1
 	return $?
 }
 docker_usermod $user $group
+
 ## Run the job(s) that don't need root
 #For instance : su user -c "command arguments"
-#su docker -c "bash /opt/deploiement/docker_deployment.sh mongodb 27017 27017 $dimage"
-su docker -c "mkdir /home/$user/containers/$cname"
-su docker -c "docker run -d --name $cname -v /home/$user/containers/$cname:/data/db -p $hport:$cport $dimage"
+#Creation of folders for sharing config and data from and to container
+su docker -c "mkdir -p /home/$user/containers/full_image/$cname"
+su docker -c "mkdir -p /home/$user/containers/configs/$cname"
+chown -R docker:docker /home/$user/*
+#Initialization of config file
+su docker -c "echo \"replSet=agilitation\"> /home/$user/containers/configs/$cname/mongod.conf"
+#DEBUG
+echo /home/$user/containers/configs/$cname/mongod.conf
+#Container initialization
+su docker -c "docker run -d --name $cname -v /home/$user/containers/configs/$cname:/etc/mongo -v /home/$user/containers/full_image/$cname:/data/db -p $hport:$cport $dimage --config /etc/mongo/mongod.conf"
+#Check if container has started
 su docker -c "docker ps"
