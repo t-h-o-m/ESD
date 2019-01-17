@@ -14,17 +14,22 @@ sshretry(){
 	return $?
 }
 
-#Creation du reseau prive
+#Récupération du dernier VLAN
 
+echo "Récupération des VLANs existants et génération du nouveau"
+sudo python last_vlan.py > last_vlan.tmp
+last_vlan=`cat last_vlan.tmp`
+last_vlan=$((last_vlan+1))
+
+#Creation du reseau prive
 echo "Creation du reseau privé virtuel[...]"
-sudo python vlan_creation.py -vn new_vlan -vr $region_id -vid 62 > resultat_vlan.json
+sudo python vlan_creation.py -vn $project_name -vr $region_id -vid $last_vlan > resultat_vlan.json
 vlan_id=`cat resultat_vlan.json`
 
 #Creation de la premiere machine virtuelle 
-
 echo "Initialisation de la machine virtuelle [...]"
 sudo python ./create_instance.py -pn $project_name1 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.4 --sshkey $ssh_key > resultat.json
-instance_ip=`cat resultat.json`
+instance_ip=`sudo cat resultat.json`
 echo "Connexion a la machine virtuelle 1 et deploiement de l'environnement MongoDB"
 
 sshretry $instance_ip
@@ -34,9 +39,8 @@ while [ $? -ne 0 ]; do
 done
 
 #Creation de la deuxieme machine virtuelle
-
 sudo python ./create_instance.py -pn $project_name2 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.5 --sshkey $ssh_key > resultat2.json
-instance_ip2=`cat resultat2.json`
+instance_ip2=`sudo cat resultat2.json`
 echo "Connexion a la machine virtuelle 2 et deploiement de l'environnement MongoDB"
 
 sshretry $instance_ip2
@@ -46,10 +50,9 @@ while [ $? -ne 0 ]; do
 done
 
 
-#Creation de la troisieme machien virtuelle
-
+#Creation de la troisieme machine virtuelle
 sudo python ./create_instance.py -pn $project_name3 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.6 --sshkey $ssh_key > resultat3.json
-instance_ip3=`cat resultat3.json`
+instance_ip3=`sudo cat resultat3.json`
 echo "Connexion a la machine virtuelle 3 et deploiement de l'environnement MongoDB"
 
 sshretry $instance_ip3

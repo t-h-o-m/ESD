@@ -17,8 +17,8 @@ $_SESSION['projectid'] = $projectid;
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contain 'US</title>
-        <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+        <title>ESD</title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="./images/Contain'us.png">
