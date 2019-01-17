@@ -8,19 +8,29 @@ import sys
 import argparse
 import time
 
+parser = argparse.ArgumentParser()
+parser.add_argument("-ak", "--applicationkey", help="enter your application key")
+parser.add_argument("-as", "--applicationsecret", help="enter your application secret")
+parser.add_argument("-ck", "--consumerkey", help="enter your consumer key")
+parser.add_argument("-pid", "--projectid", help="enter your project id (cloud)")
+args = parser.parse_args()
+
+app_key=args.applicationkey
+app_secret=args.applicationsecret
+consumer_k=args.consumerkey
+projectid=args.projectid
 
 # Instanciate an OVH Client.
 # You can generate new credentials with full access to your account on
 # the token creation page
 client = ovh.Client(
     endpoint='ovh-eu',               # Endpoint of API OVH Europe (List of available endpoints)
-    application_key='sOnTv0t6pIgSSyGs',    # Application Key
-    application_secret='RvNu7yF36Ms5ppBcNyXvKVoGQndwEmtr', # Application Secret
-    consumer_key='t4l7VeXIe4CQ0n1exAIutQy5RD2RLV77',       # Consumer Key
+    application_key=app_key,    # Application Key
+    application_secret=app_secret, # Application Secret
+    consumer_key=consumer_k,       # Consumer Key
 )
 
-
-result = client.get('/cloud/project/8b98da39645b4f119ae33b1087d2355f/network/private')
+result = client.get('/cloud/project/'+projectid+'/network/private')
 small = 0
 for element in result :
 	if element['vlanId'] > small:

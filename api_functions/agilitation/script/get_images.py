@@ -18,6 +18,7 @@ parser.add_argument("-ak", "--applicationkey", help="enter your application key"
 parser.add_argument("-as", "--applicationsecret", help="enter your application secret")
 parser.add_argument("-ck", "--consumerkey", help="enter your consumer key")
 parser.add_argument("-rid", "--regionid", help="enter your region id")
+parser.add_argument("-pid", "--projectid", help="enter your project id (cloud)")
 args = parser.parse_args()
 
 
@@ -25,6 +26,8 @@ app_key=args.applicationkey
 app_secret=args.applicationsecret
 consumer_k=args.consumerkey
 regionid=args.regionid
+projectid=args.projectid
+
 # Instanciate an OVH Client.
 # You can generate new credentials with full access to your account on
 # the token creation page
@@ -36,7 +39,7 @@ client = ovh.Client(
     consumer_key=consumer_k,       # Consumer Key
 )
 
-result = client.get('/cloud/project/8b98da39645b4f119ae33b1087d2355f/image', 
+result = client.get('/cloud/project/'+projectid+'/image', 
     osType='linux',
     region=regionid, 
 )
