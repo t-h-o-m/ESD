@@ -8,10 +8,10 @@ region_id=$2
 flavor_id=$3
 image_id=$4
 ssh_key=$5
-$applicationkey=$6
-$applicationsecret=$7
-$consumerkey=$8
-$projectid=$9
+applicationkey=$6
+applicationsecret=$7
+consumerkey=$8
+projectid=$9
 
 #Functions declaration
 sshretry(){
