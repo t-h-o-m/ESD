@@ -117,7 +117,7 @@ $flavorid = $_SESSION['flavorid'];
 $sshkey = $_SESSION['sshkey']; 
 $imageid = $_SESSION['imageid']; 
     
-    $createinstance = shell_exec("sudo sh master.sh $projectname $regionid $flavorid $imageid $sshkey"); 
+    $createinstance = shell_exec("sudo sh master.sh $projectname $regionid $flavorid $imageid $sshkey $applicationkey $applicationsecret $consumerkey $projectid"); 
                       $machine1 = shell_exec("sudo cat resultat.json"); 
                       $machine2 = shell_exec("sudo cat resultat2.json"); 
                       $machine3 = shell_exec("sudo cat resultat3.json"); 
@@ -151,7 +151,7 @@ $imageid = $_SESSION['imageid'];
                             <div class="form-group">
                                 <label for="image">Image id</label>
                                 <?php
-                                $getimage = shell_exec("sudo python script/get_images.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -rid $regionid"); 
+                                $getimage = shell_exec("sudo python script/get_images.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -rid $regionid -pid $projectid"); 
                                 $json_image = json_decode($getimage, true); 
 				                $length = count($json_image); 
                                     for ($i = 0; $i < $length; $i++) { 

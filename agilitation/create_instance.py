@@ -14,6 +14,10 @@ import time
 # by typing 'python3 scriptname.py -h'
 
 parser = argparse.ArgumentParser()
+parser.add_argument("-ak", "--applicationkey", help="enter your application key")
+parser.add_argument("-as", "--applicationsecret", help="enter your application secret")
+parser.add_argument("-ck", "--consumerkey", help="enter your consumer key")
+parser.add_argument("-pid", "--projectid", help="enter your project id (cloud)")
 parser.add_argument("-pn", "--projectname", help="choose your project name")
 parser.add_argument("-gid", "--groupid", help="choose which groupid you want to be in, if none type None")
 parser.add_argument("-fid", "--flavorid", help="choose which flavorId you want for your VM")
@@ -25,6 +29,10 @@ parser.add_argument("-lip", "--localip", help="enter the local interface's ip ad
 parser.add_argument("--sshkey", help="type your SSHKEY")
 args = parser.parse_args()
 
+app_key=args.applicationkey
+app_secret=args.applicationsecret
+consumer_k=args.consumerkey
+projectid=args.projectid
 pname=args.projectname
 flavortype=args.flavorid
 groupid=args.groupid
@@ -41,14 +49,13 @@ sshid=args.sshkey
 
 client = ovh.Client(
     endpoint='ovh-eu',               # Endpoint of API OVH Europe (List of available endpoints)
-    application_key='sOnTv0t6pIgSSyGs',    # Application Key
-    application_secret='RvNu7yF36Ms5ppBcNyXvKVoGQndwEmtr', # Application Secret
-    consumer_key='t4l7VeXIe4CQ0n1exAIutQy5RD2RLV77',       # Consumer Key
+    application_key=app_key,    # Application Key
+    application_secret=app_secret, # Application Secret
+    consumer_key=consumer_k,       # Consumer Key
 )
 
 
-
-result = client.post('/cloud/project/8b98da39645b4f119ae33b1087d2355f/instance', 
+result = client.post('/cloud/project/'+projectid+'/instance', 
     flavorId=flavortype, #// Instance flavor id (type: string)
 #    groupId=groupid, #// Start instance in group (type: string)
     imageId=imageid, #// Instance image id (type: string)
@@ -67,9 +74,9 @@ result = client.post('/cloud/project/8b98da39645b4f119ae33b1087d2355f/instance',
 id_instance = result['id']
 
 
-for i in range(0,10):
+for i in range(0,100):
     	try:
-		getip = client.get('/cloud/project/8b98da39645b4f119ae33b1087d2355f/instance/'+id_instance)
+		getip = client.get('/cloud/project/'+projectid+'/instance/'+id_instance)
 		print (getip['ipAddresses'][0]['ip'])
     		break
 	except:

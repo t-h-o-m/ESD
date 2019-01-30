@@ -10,11 +10,19 @@ import time
 
 
 parser = argparse.ArgumentParser()
+parser.add_argument("-ak", "--applicationkey", help="enter your application key")
+parser.add_argument("-as", "--applicationsecret", help="enter your application secret")
+parser.add_argument("-ck", "--consumerkey", help="enter your consumer key")
+parser.add_argument("-pid", "--projectid", help="enter your project id (cloud)")
 parser.add_argument("-vn", "--vlanname", help="choose your vlan name")
 parser.add_argument("-vr", "--vlanregion", help="choose which region you want to be in")
 parser.add_argument("-vid", "--vlanid", help="choose which vlanId you want for your vlan")
 args = parser.parse_args()
 
+app_key=args.applicationkey
+app_secret=args.applicationsecret
+consumer_k=args.consumerkey
+projectid=args.projectid
 vlanname=args.vlanname
 vlanregion=args.vlanregion
 vlanid=args.vlanid
@@ -27,19 +35,15 @@ vlanid=args.vlanid
 # the token creation page
 client = ovh.Client(
     endpoint='ovh-eu',               # Endpoint of API OVH Europe (List of available endpoints)
-    application_key='sOnTv0t6pIgSSyGs',    # Application Key
-    application_secret='RvNu7yF36Ms5ppBcNyXvKVoGQndwEmtr', # Application Secret
-    consumer_key='t4l7VeXIe4CQ0n1exAIutQy5RD2RLV77',       # Consumer Key
+    application_key=app_key,    # Application Key
+    application_secret=app_secret, # Application Secret
+    consumer_key=consumer_k,       # Consumer Key
 )
 
 
 
-# result = client.post('/cloud/project/8b98da39645b4f119ae33b1087d2355f/network/private', 
-#     name=vlanname, # Network name (type: string)
-#     regions=vlanregion, # Region where to activate private network. No parameters means all region (type: string[])
-#     vlanId="0, # Vland id, between 0 and 4000. 0 value means no vlan. (type: long)
-# )
-result = client.post('/cloud/project/8b98da39645b4f119ae33b1087d2355f/network/private', 
+
+result = client.post('/cloud/project/'+projectid+'/network/private', 
     name=""+vlanname+"", # Network name (type: string)
     regions=[""+vlanregion+""], # Region where to activate private network. No parameters means all region (type: string[])
     vlanId=int(vlanid), # Vland id, between 0 and 4000. 0 value means no vlan. (type: long)
@@ -52,7 +56,7 @@ id_network = result['id']
 
 for i in range(0,1000):
         try:
-			result = client.post('/cloud/project/8b98da39645b4f119ae33b1087d2355f/network/private/'+id_network+'/subnet',
+			result = client.post('/cloud/project/'+projectid+'/network/private/'+id_network+'/subnet',
     				dhcp=True, # Enable DHCP (type: boolean)
     				end='192.168.1.10', # Last IP for this region (eg: 192.168.1.24) (type: ip)
     				network='192.168.1.0/24', # Global network with cidr (eg: 192.168.1.0/24) (type: ipBlock)
