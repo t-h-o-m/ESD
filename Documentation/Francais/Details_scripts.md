@@ -53,7 +53,7 @@ Création d'un VLAN dans le projet OVH fourni
 ### Arguments demandés
 - Clé d'application OVH
 - Secret d'application OVH
-- Clé de clien OVH
+- Clé de client OVH
 - Id de projet OVH
 - Nom de projet
 - Nom de région
@@ -61,3 +61,83 @@ Création d'un VLAN dans le projet OVH fourni
 
 ### Scripts parents
 	master.sh ($applicationkey $applicationsecret $consumerkey $projectid $project_name $region_id $last_vlan)
+
+
+## create_instance.py
+###	`agilitation/create_instance.py`
+Création d'un machine virtuelle avec les options choisies et configure l'accès avec la clé SSH fournie
+
+### Arguments demandés
+- Clé d'application OVH
+- Secret d'application OVH
+- Clé de client OVH
+- Id de projet OVH
+- Nom de projet
+- Nom de groupe
+- Flavor ID
+- Type de paiment
+- Id d'image
+- Id de région
+- Id de VLAN
+- IP locale
+- Clé SSH
+
+### Scripts parents
+	master.sh ($applicationkey $applicationsecret $consumerkey  $projectid $project_name1 None $flavor_id False $image_id $region_id $vlan_id 192.168.1.[4-6] $ssh_key)
+	
+## docker_allinone.sh
+###	`agilitation/docker_allinone.sh`
+Script lancé sur les machine pour installer docker et une base de donnée MongoDB
+
+### Arguments demandés
+- [Utilisateur cible]
+- [Hash de mot de passe]
+- [Image docker]
+- [Paquet apt à installer]
+- [Groupe utilisateur]
+- [Nom de container]
+- [Port exterieur]
+- [Port container]
+
+### Scripts parents
+	master.sh
+	
+## check_credentials.py
+###	`agilitation/script/check_credentials.py`
+Vérification des identifiants de connexion et retour des projets OVH liés
+
+### Arguments demandés
+- Clé d'application OVH
+- Secret d'application OVH
+- Clé de client OVH
+
+## get_region.py
+###	`agilitation/script/get_region.py`
+Récupration des régions disponible pour la création de machines virtuelles
+
+### Arguments demandés
+- Clé d'application OVH
+- Secret d'application OVH
+- Clé de client OVH
+- Id de projet OVH
+
+## get_flavor.py
+###	`agilitation/script/get_flavor.py`
+Récupération des flavor disponibles
+
+### Arguments demandés
+- Clé d'application OVH
+- Secret d'application OVH
+- Clé de client OVH
+- Id de projet OVH
+- Id de région OVH
+
+## get_sshkey.py
+###	`agilitation/script/get_sshkey.py`
+Récupération des clé ssh enregisté sur OVH
+
+### Arguments demandés
+- Clé d'application OVH
+- Secret d'application OVH
+- Clé de client OVH
+- Id de projet OVH
