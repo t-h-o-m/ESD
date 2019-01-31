@@ -1,4 +1,4 @@
-# Agilitation_S5SR_GIT_PROCEDURE
+# European Secured Databases
 
 ## Description
 European Secured Databases is a students project done by a group of students of IN'TECH Sud.
@@ -11,7 +11,7 @@ The content of  agilitation can be used as a is using an apache2 server.
 This will allow the use of a website to interact with the scripts easily.
 
 ### Configuration
-We use RSA keys to configure the machines on OVH. The private RSA key used should be located in the file agilitation/id_rsa.
+We use RSA keys to configure the machines on OVH. The private RSA key used should be given in the file `master.sh` on line 19.
 
 ## Information for use
 We use the OVH API to automate the processes for fetching and sending information to the server. To use our solution, you will need credentials allowing the aplication modification of your OVH project (https://api.ovh.com/createToken/).

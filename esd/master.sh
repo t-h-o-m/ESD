@@ -14,8 +14,9 @@ consumerkey=$8
 projectid=$9
 
 #Functions declaration
+# Replace //sshkey// with your private rey file
 sshretry(){
-	sudo ssh -v -o "StrictHostKeyChecking no" -i XXXXXXXXXXX debian@$1 'sudo bash -s ' < docker_allinone.sh
+	sudo ssh -v -o "StrictHostKeyChecking no" -i //sshkey// debian@$1 'sudo bash -s ' < docker_allinone.sh
 	return $?
 }
 
