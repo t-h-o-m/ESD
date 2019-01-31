@@ -3,8 +3,18 @@ session_start();
 $consumerkey = $_SESSION['consumerkey'];
 $applicationsecret = $_SESSION['applicationsecret'];
 $applicationkey = $_SESSION['applicationkey'];
-$projectid = $_POST['selectProjects'];
-$_SESSION['projectid'] = $projectid;
+$projectid = $_SESSION['projectid'] ;
+$projectname = $_SESSION['projectname'];
+$regionid = $_SESSION['regionid'] ;
+
+if (isset($_POST['sshkey'])){
+$sshkey = $_POST['sshkey'];
+$flavorid = $_POST['flavorid'];
+
+$_SESSION['sshkey'] = $sshkey;
+$_SESSION['flavorid'] = $flavorid;
+}
+
 ?>
     <!doctype html>
     <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -18,11 +28,10 @@ $_SESSION['projectid'] = $projectid;
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>ESD</title>
-        <meta name="description" content="">
+        <meta name="description" content="Sufee Admin - HTML5 Admin Template">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="./images/Contain'us.png">
-        <link rel="shortcut icon" href="./images/Contain'us.png">
+ 
 
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -48,7 +57,7 @@ $_SESSION['projectid'] = $projectid;
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href=""><img src="./images/agilitation.png" alt="Logo"></a>
+           
                 </div>
                 <div id="main-menu" class="main-menu collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -101,27 +110,70 @@ $_SESSION['projectid'] = $projectid;
 
             <div class="content mt-3">
                 <div class="animated fadeIn">
-                    <form action="part3.php" method="post">
-                        <div class="form-group">
-                            <label for="projectname">Project Name</label>
-                            <input type="text" class="form-control" id="projectname" name="projectname" placeholder="Agilitation">
-                        </div>
-                        <div class="form-group">
-                            <label for="region">Region</label>
-                            <select class="form-control" id="regionid" name="regionid">
+                    <?php
+                    if (isset($_POST['confirm'])) {
+$flavorid = $_SESSION['flavorid'];
+$sshkey = $_SESSION['sshkey']; 
+$imageid = $_SESSION['imageid']; 
+    
+    $createinstance = shell_exec("sudo sh master.sh $projectname $regionid $flavorid $imageid $sshkey $applicationkey $applicationsecret $consumerkey $projectid"); 
+                      $machine1 = shell_exec("sudo cat resultat.json"); 
+                      $machine2 = shell_exec("sudo cat resultat2.json"); 
+                      $machine3 = shell_exec("sudo cat resultat3.json"); 
+
+                    ?>
+                            <div class="alert alert-success" role="alert">
+                                <h4 class="alert-heading">Succès !</h4>
+                                <p>Vous avez bien creer les 3 machines virtuelles chez OVH. Elles ont les IPs suivantes :.</p>
+                                <hr>
+                                <p class="mb-0">Machine 1 : <?php echo $machine1 ?>/ Machine 2 : <?php echo $machine2 ?>/ Machine 3 : <?php echo $machine3 ?></p>
+                            </div>
+                            <textarea id='myText'  rows="30" cols="225"><?php echo $createinstance; ?></textarea>
+<?php } ?>                        
+<form action="" method="post">
+                            <div class="form-group">
+                                <label for="projectname">Project Name</label>
+                                <input type="text" readonly class="form-control" id="projectname" value="<?php echo $projectname ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="regionid">Region</label>
+                                <input type="text" readonly class="form-control" id="regionid" value="<?php echo $regionid ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="regionid">Flavor id</label>
+                                <input type="text" readonly class="form-control" id="regionid" value="<?php echo $flavorid ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="regionid">SSH Key</label>
+                                <input type="text" readonly class="form-control" id="sshkey" value="<?php echo $sshkey ?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="image">Image id</label>
                                 <?php
-                                $getregion = shell_exec("sudo python script/get_region.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid"); 
-                                $json_region = json_decode($getregion); 
-				                $length = count($json_region); 
-                                    for ($i = 0; $i < $length; $i++) { ?>
-                                        <option name="project" value="<?php echo $json_region[$i];?>"><?php echo $json_region[$i];?></option>
+                                $getimage = shell_exec("sudo python script/get_images.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -rid $regionid -pid $projectid"); 
+                                $json_image = json_decode($getimage, true); 
+				                $length = count($json_image); 
+                                    for ($i = 0; $i < $length; $i++) { 
+					if ($json_image[$i]['name'] == "Debian 9"){
+					?>
+
+                                    <input type="text" readonly class="form-control" id="imageid" value="<?php echo $json_image[$i]['id'];?>" placeholder="<?php echo " Image : ".$json_image[$i]['name'];?>">
                                     <?php
+                        $_SESSION['imageid'] = $json_image[$i]['id'];
+					} else { }
                                      }
                                     ?>
-                            </select>
-                        </div>
-                        <button type="submit" style="float:right" class="btn btn-primary">Suivant</button>
-                    </form>
+
+                            </div>
+                            <?php
+                        if (!isset($_POST['confirm'])) {
+
+    ?>
+                                <button type="submit" style="float:right" name="confirm" class="btn btn-primary">Confirmer</button>
+                                <?php
+                        }
+                            ?>
+                        </form>
                 </div>
             </div>
 

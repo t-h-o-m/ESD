@@ -153,7 +153,7 @@ su docker -c "mkdir -p /home/$user/containers/full_image/$cname"
 su docker -c "mkdir -p /home/$user/containers/configs/$cname"
 chown -R docker:docker /home/$user/*
 #Initialization of config file
-su docker -c "echo \"replSet=agilitation\"> /home/$user/containers/configs/$cname/mongod.conf"
+su docker -c "echo \"replSet=replica\"> /home/$user/containers/configs/$cname/mongod.conf"
 #DEBUG
 echo /home/$user/containers/configs/$cname/mongod.conf
 #Container initialization
