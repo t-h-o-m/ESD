@@ -26,9 +26,6 @@ $_SESSION['regionid'] = $regionid;
         <meta name="description" content="ESD">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="./images/Contain'us.png">
-        <link rel="shortcut icon" href="./images/Contain'us.png">
-
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
@@ -53,7 +50,7 @@ $_SESSION['regionid'] = $regionid;
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href=""><img src="./images/agilitation.png" alt="Logo"></a>
+           
                 </div>
                 <div id="main-menu" class="main-menu collapse navbar-collapse">
                     <ul class="nav navbar-nav">

@@ -26,6 +26,7 @@ parser.add_argument("-iid", "--imageid", help="choose the image for your VM")
 parser.add_argument("-rid", "--regionid", help="choose the region you want to be in")
 parser.add_argument("-vid", "--vlanid", help="choose the vlan you want to be in")
 parser.add_argument("-lip", "--localip", help="enter the local interface's ip address X.X.X.X")
+parser.add_argument("-nId", "--networkid", help="enter the public network id address")
 parser.add_argument("--sshkey", help="type your SSHKEY")
 args = parser.parse_args()
 
@@ -41,6 +42,7 @@ imageid=args.imageid
 regionid=args.regionid
 vlanid=args.vlanid
 localip=args.localip
+networkId=args.networkid
 sshid=args.sshkey
 
 # Instanciate an OVH Client.
@@ -60,7 +62,7 @@ result = client.post('/cloud/project/'+projectid+'/instance',
 #    groupId=groupid, #// Start instance in group (type: string)
     imageId=imageid, #// Instance image id (type: string)
     monthlyBilling=False, #// Active monthly billing (type: boolean)
-    networks=[{"networkId":"bc63b98d13fbba642b2653711cc9d156ca7b404d2df009f7227172d37b5280a6"},{"networkId":""+vlanid+"","ip":""+localip+""}], # Create network interfaces (type: cloud.instance.NetworkParams[])
+    networks=[{"networkId":""+networkId+""},{"networkId":""+vlanid+"","ip":""+localip+""}], # Create network interfaces (type: cloud.instance.NetworkParams[])
     name=pname, #// Instance name (type: string)
 #    networks=None, #// Create network interfaces (type: cloud.instance.NetworkParams[])
     region=regionid, #// Instance region (type: string)

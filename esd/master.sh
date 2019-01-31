@@ -15,16 +15,20 @@ projectid=$9
 
 #Functions declaration
 sshretry(){
-	sudo ssh -v -o "StrictHostKeyChecking no" -i /agilitation/id_rsa debian@$1 'sudo bash -s ' < docker_allinone.sh
+	sudo ssh -v -o "StrictHostKeyChecking no" -i XXXXXXXXXXX debian@$1 'sudo bash -s ' < docker_allinone.sh
 	return $?
 }
 
 #Récupération du dernier VLAN
-
 echo "Récupération des VLANs existants et génération du nouveau"
 sudo python last_vlan.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid > last_vlan.tmp
 last_vlan=`cat last_vlan.tmp`
 last_vlan=$((last_vlan+1))
+
+#Creation du reseau prive
+echo "Récupération du networkId"
+sudo python script/get_networkId.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid > networkId.tmp
+network_id=`cat networkId.tmp`
 
 #Creation du reseau prive
 echo "Creation du reseau privé virtuel[...]"
@@ -33,7 +37,7 @@ vlan_id=`cat resultat_vlan.json`
 
 #Creation de la premiere machine virtuelle 
 echo "Initialisation de la machine virtuelle [...]"
-sudo python ./create_instance.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid -pn $project_name1 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.4 --sshkey $ssh_key > resultat.json
+sudo python ./create_instance.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid -pn $project_name1 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.4 -nId $network_id --sshkey $ssh_key > resultat.json
 instance_ip=`sudo cat resultat.json`
 echo "Connexion a la machine virtuelle 1 et deploiement de l'environnement MongoDB"
 
@@ -44,7 +48,7 @@ while [ $? -ne 0 ]; do
 done
 
 #Creation de la deuxieme machine virtuelle
-sudo python ./create_instance.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid -pn $project_name2 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.5 --sshkey $ssh_key > resultat2.json
+sudo python ./create_instance.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid -pn $project_name2 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.5 -nId $network_id --sshkey $ssh_key > resultat2.json
 instance_ip2=`sudo cat resultat2.json`
 echo "Connexion a la machine virtuelle 2 et deploiement de l'environnement MongoDB"
 
@@ -56,7 +60,7 @@ done
 
 
 #Creation de la troisieme machine virtuelle
-sudo python ./create_instance.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid -pn $project_name3 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.6 --sshkey $ssh_key > resultat3.json
+sudo python ./create_instance.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -pid $projectid -pn $project_name3 -gid None -fid $flavor_id -mbill False -iid $image_id -rid $region_id -vid $vlan_id -lip 192.168.1.6 -nId $network_id --sshkey $ssh_key > resultat3.json
 instance_ip3=`sudo cat resultat3.json`
 echo "Connexion a la machine virtuelle 3 et deploiement de l'environnement MongoDB"
 
@@ -75,4 +79,4 @@ cat resultat3.json
 
 #Deploiement du replicaSet mondoDB
 sleep 10;
-mongo --host $instance_ip --port 27017 --eval 'rs.initiate({_id:"agilitation",version:1,members:[{_id:0,host:"192.168.1.4:27017"},{_id:1,host:"192.168.1.5:27017"},{_id:2,host:"192.168.1.6:27017"}]})'
+mongo --host $instance_ip --port 27017 --eval 'rs.initiate({_id:"replica",version:1,members:[{_id:0,host:"192.168.1.4:27017"},{_id:1,host:"192.168.1.5:27017"},{_id:2,host:"192.168.1.6:27017"}]})'

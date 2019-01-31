@@ -1,19 +1,6 @@
 <?php
 session_start();
-$consumerkey = $_SESSION['consumerkey'];
-$applicationsecret = $_SESSION['applicationsecret'];
-$applicationkey = $_SESSION['applicationkey'];
-$projectid = $_SESSION['projectid'] ;
-$projectname = $_SESSION['projectname'];
-$regionid = $_SESSION['regionid'] ;
 
-if (isset($_POST['sshkey'])){
-$sshkey = $_POST['sshkey'];
-$flavorid = $_POST['flavorid'];
-
-$_SESSION['sshkey'] = $sshkey;
-$_SESSION['flavorid'] = $flavorid;
-}
 
 ?>
     <!doctype html>
@@ -27,12 +14,10 @@ $_SESSION['flavorid'] = $flavorid;
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contain 'US</title>
-        <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+        <title>ESD</title>
+        <meta name="description" content="ESD">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="./images/Contain'us.png">
-        <link rel="shortcut icon" href="./images/Contain'us.png">
 
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -58,7 +43,7 @@ $_SESSION['flavorid'] = $flavorid;
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href=""><img src="./images/agilitation.png" alt="Logo"></a>
+
                 </div>
                 <div id="main-menu" class="main-menu collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -82,7 +67,9 @@ $_SESSION['flavorid'] = $flavorid;
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
                             </a>
-
+                            <div class="user-menu dropdown-menu">
+                                <a class="nav-link" href="./deconnexion_administrateur.php"><i class="fa fa-power -off"></i>Déconnexion</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -111,75 +98,90 @@ $_SESSION['flavorid'] = $flavorid;
 
             <div class="content mt-3">
                 <div class="animated fadeIn">
+
                     <?php
-                    if (isset($_POST['confirm'])) {
-$flavorid = $_SESSION['flavorid'];
-$sshkey = $_SESSION['sshkey']; 
-$imageid = $_SESSION['imageid']; 
+if (isset($_POST['consumerkey'])) {
+    $consumerkey                   = $_POST['consumerkey'];
+    $applicationsecret             = $_POST['applicationsecret'];
+    $applicationkey                = $_POST['applicationkey'];
+    $_SESSION["consumerkey"]       = $consumerkey;
+    $_SESSION["applicationsecret"] = $applicationsecret;
+    $_SESSION["applicationkey"]    = $applicationkey;
     
-    $createinstance = shell_exec("sudo sh master.sh $projectname $regionid $flavorid $imageid $sshkey $applicationkey $applicationsecret $consumerkey $projectid"); 
-                      $machine1 = shell_exec("sudo cat resultat.json"); 
-                      $machine2 = shell_exec("sudo cat resultat2.json"); 
-                      $machine3 = shell_exec("sudo cat resultat3.json"); 
-
-                    ?>
-                            <div class="alert alert-success" role="alert">
-                                <h4 class="alert-heading">Succès !</h4>
-                                <p>Vous avez bien creer les 3 machines virtuelles chez OVH. Elles ont les IPs suivantes :.</p>
-                                <hr>
-                                <p class="mb-0">Machine 1 : <?php echo $machine1 ?>/ Machine 2 : <?php echo $machine2 ?>/ Machine 3 : <?php echo $machine3 ?></p>
+    echo "<html>	 
+                    	                  <div class=\"row\">
+                    <div class=\"col-xs-6 col-sm-12\">
+                    <div class=\"card\">
+                            <div class=\"card-header\">
+							
+                                <strong class=\"card-title\">Veuillez sélectionner le projet sur lequel vous souhaitez travailler : </strong>
                             </div>
-                            <textarea id='myText'  rows="30" cols="225"><?php echo $createinstance; ?></textarea>
-<?php } ?>                        
-<form action="" method="post">
-                            <div class="form-group">
-                                <label for="projectname">Project Name</label>
-                                <input type="text" readonly class="form-control" id="projectname" value="<?php echo $projectname ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="regionid">Region</label>
-                                <input type="text" readonly class="form-control" id="regionid" value="<?php echo $regionid ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="regionid">Flavor id</label>
-                                <input type="text" readonly class="form-control" id="regionid" value="<?php echo $flavorid ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="regionid">SSH Key</label>
-                                <input type="text" readonly class="form-control" id="sshkey" value="<?php echo $sshkey ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="image">Image id</label>
-                                <?php
-                                $getimage = shell_exec("sudo python script/get_images.py -ak $applicationkey -as $applicationsecret -ck $consumerkey -rid $regionid -pid $projectid"); 
-                                $json_image = json_decode($getimage, true); 
-				                $length = count($json_image); 
-                                    for ($i = 0; $i < $length; $i++) { 
-					if ($json_image[$i]['name'] == "Debian 9"){
-					?>
-
-                                    <input type="text" readonly class="form-control" id="imageid" value="<?php echo $json_image[$i]['id'];?>" placeholder="<?php echo " Image : ".$json_image[$i]['name'];?>">
-                                    <?php
-                        $_SESSION['imageid'] = $json_image[$i]['id'];
-					} else { }
-                                     }
-                                    ?>
-
-                            </div>
+                            <div class=\"card-body\">
+<form method=\"post\" action=\"part2.php\">
+  <div class=\"form-group\">
+    <label for=\"selectProjects\">Projets : </label>
+    <select class=\"form-control\" name=\"selectProjects\">";
+    $command   = shell_exec("sudo python script/check_credentials.py -ak $applicationkey -as $applicationsecret -ck $consumerkey");
+    $json_data = json_decode($command);
+    
+    $length = count($json_data);
+    for ($i = 0; $i < $length; $i++) {
+?>
+                        <option name="project" value="<?php
+        echo $json_data[$i];
+?>">
                             <?php
-                        if (!isset($_POST['confirm'])) {
+        echo $json_data[$i];
+?>
+                        </option>
+                        <?php
+    }
+    echo "
+			</select>
+            <br />
+<input type=\"submit\" style=\"float:right\" class=\"btn btn-primary\" name=\"selection\" value=\"Sélectionner\"/>
+                          </div>
+			</form>
+			</div>
+                        </div>
+                        </div>
+                        </div></html>";
+}
+?>
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <strong class="card-title">Insérez vos crédentials</strong>
+                                        </div>
+                                        <div class="card-body">
+                                            <form method="post" action="./index.php">
+                                                <div class="form-group">
+                                                    <label for="consumerkey">Consumer Key</label>
+                                                    <input type="text" class="form-control" id="consumerkey" name="consumerkey">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="applicationkey">Application Key</label>
+                                                    <input type="text" class="form-control" id="applicationkey" name="applicationkey">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="applicationsecret">Application Secret</label>
+                                                    <input type="text" class="form-control" id="applicationsecret" name="applicationsecret">
+                                                </div>
+                                                <button type="submit" style="float:right" class="btn btn-primary">Envoyer</button>
+                                            </form>
 
-    ?>
-                                <button type="submit" style="float:right" name="confirm" class="btn btn-primary">Confirmer</button>
-                                <?php
-                        }
-                            ?>
-                        </form>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                 </div>
             </div>
 
         </div>
-
+       
 
         <script src="./assets/js/vendor/jquery-2.1.4.min.js"></script>
         <script src="./assets/js/popper.min.js"></script>
